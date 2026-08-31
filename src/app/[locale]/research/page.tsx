@@ -1,17 +1,17 @@
 import { notFound } from "next/navigation";
-import { FileText } from "lucide-react";
+import { ExternalLink, FileText, FlaskConical } from "lucide-react";
 import { getDictionary, isValidLocale } from "@/lib/i18n";
 import type { Locale } from "@/content/types";
 import PublicationGroupDisplay from "@/components/PublicationGroupDisplay";
 
-export default async function PublicationsPage({
+export default async function ResearchPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   if (!isValidLocale(locale)) notFound();
-  const dict = getDictionary(locale as Locale).publications;
+  const dict = getDictionary(locale as Locale).research;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
@@ -22,7 +22,32 @@ export default async function PublicationsPage({
         {dict.intro}
       </p>
 
-      <section className="mt-12">
+      <a
+        href={dict.scholarUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex items-center gap-2 rounded-md border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:border-emerald-700 hover:text-emerald-700"
+      >
+        {dict.scholarLabel}
+        <ExternalLink className="h-4 w-4" />
+      </a>
+
+      <section className="mt-14">
+        <h2 className="flex items-center gap-2 text-xl font-bold text-slate-900">
+          <FlaskConical className="h-5 w-5 text-emerald-700" />
+          {dict.strongGroupsTitle}
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm text-slate-600">
+          {dict.strongGroupsIntro}
+        </p>
+        <div className="mt-6 grid gap-8 sm:grid-cols-2">
+          {dict.groups.map((group) => (
+            <PublicationGroupDisplay key={group.title} group={group} compact />
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-16">
         <h2 className="text-xl font-bold text-slate-900">
           {dict.selectedTitle}
         </h2>

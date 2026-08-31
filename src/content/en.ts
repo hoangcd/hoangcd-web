@@ -3,29 +3,49 @@ import type { Site } from "./types";
 const en: Site = {
   meta: {
     siteName: "Chu Duc Hoang",
-    title: "Dr. Chu Duc Hoang — Science, Technology & Innovation Expert",
+    title: "Dr. Chu Duc Hoang — Chief of Office, National Technology Innovation Fund",
     description:
-      "Personal site of Dr. Chu Duc Hoang — Chairman of the Governing Board, Vietnam Institute of Science, Technology and Innovation Strategy (STI), Vice Chairman of VAYSE.",
+      "Personal site of Dr. Chu Duc Hoang — Chief of Office, Head of Funding & Commissioning, and Chairman of the Labor Union at the National Technology Innovation Fund (NATIF); Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE).",
   },
   nav: {
     home: "Home",
-    about: "About",
-    experience: "Experience",
-    publications: "Publications",
-    blog: "Blog",
+    research: "Research",
+    management: "Management",
+    media: "Media",
     contact: "Contact",
   },
   hero: {
     kicker: "DR. CHU DUC HOANG",
     name: "Chu Duc Hoang",
-    tagline: "Science, Technology & Innovation Expert",
-    ctaPrimary: "View Experience",
+    tagline: "Chief of Office, National Technology Innovation Fund (NATIF)",
+    ctaPrimary: "View Management Background",
     ctaSecondary: "Get in Touch",
     quote:
       "The digital economy and the green economy are not just inevitable trends — they are the path that opens the door to sustainable development for Vietnam.",
     quoteSource: "— Remarks at the BCG Tech conference, 2024",
   },
   home: {
+    primaryRolesTitle: "Primary Roles",
+    primaryRoles: [
+      "Chief of Office, National Technology Innovation Fund",
+      "Head of the Funding & Commissioning Department, National Technology Innovation Fund",
+      "Chairman of the Labor Union, National Technology Innovation Fund",
+    ],
+    concurrentRolesTitle: "Concurrent Roles",
+    concurrentRoles: [
+      "Visiting Lecturer, VNU University of Engineering and Technology (VNU-UET) and other training institutions",
+      "Vice Chairman, Vietnam Association of Young Scientists and Engineers",
+      "Management Advisor to several research institutes",
+    ],
+    bioTitle: "About",
+    bio: [
+      "Dr. Chu Duc Hoang holds a PhD in Electronics and Biomedical Engineering from Hanoi University of Science and Technology (HUST), and was a visiting researcher at Washington University in St. Louis, USA.",
+      "Since 2016, he has served as Chief of Office of the National Technology Innovation Fund (NATIF) at the Ministry of Science and Technology, while also serving as Head of the Fund's Funding & Commissioning Department and Chairman of its Labor Union. He directly contributes to managing a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million, and has contributed to drafting the 2025 Law on Science, Technology and Innovation.",
+      "Alongside his management role, he is a visiting lecturer at VNU University of Engineering and Technology (VNU-UET) and other training institutions; Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE); and a management advisor to several research institutes.",
+      "Before joining NATIF, he served as a project manager at the Vingroup Innovation Foundation (VINIF), and taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, Hanoi University of Science and Technology (2004–2016).",
+      "On the entrepreneurial side, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease (diabetes) management. He has also contributed to managing science-and-technology activities at several applied-technology research institutes.",
+      "Dr. Chu Duc Hoang has published more than 50 scientific papers, delivered more than 20 conference presentations both domestically and internationally, and co-authored 4 books/edited volumes spanning Biomedical Engineering, Technology-Innovation Policy, AI, and Digital Transformation.",
+    ],
     expertiseTitle: "Areas of Expertise",
     expertise: [
       {
@@ -43,25 +63,6 @@ const en: Site = {
         description:
           "Hospital information systems (HIS), cardiovascular signal analysis (HRV, arrhythmia), and digital-health entrepreneurship (Zinmed).",
       },
-    ],
-    aboutPreviewTitle: "About",
-    aboutPreview:
-      "Dr. Chu Duc Hoang is a senior leader and policy expert in Science, Technology and Innovation with more than 20 years of experience in policymaking, digital transformation, and managing national R&D funds. He currently serves as Chairman of the Governing Board of the Vietnam Institute of Science, Technology and Innovation Strategy (STI), Senior Visiting Lecturer/Researcher at VNU-UET, and Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE).",
-    readMore: "Read full bio",
-    latestPostsTitle: "Latest Posts",
-    viewAllPosts: "View all posts",
-    noPosts: "No posts have been published yet.",
-  },
-  about: {
-    title: "About",
-    intro: [
-      "Dr. Chu Duc Hoang holds a PhD in Electronics and Biomedical Engineering from Hanoi University of Science and Technology (HUST), and was a visiting researcher at Washington University in St. Louis, USA.",
-      "Since June 2025, he has served as Chairman of the Governing Board of the Vietnam Institute of Science, Technology and Innovation Strategy (STI, www.sti.edu.vn), leading an independent research institute that bridges private-sector perspectives with public policy, with a focus on digital transformation for micro, small and medium enterprises (MSMEs), applied artificial intelligence, and green-innovation strategy.",
-      "Prior to that, he spent nearly a decade (2016–2025) as Chief of Office of the National Technology Innovation Fund (NATIF) at the Ministry of Science and Technology, managing a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million, and contributing to the drafting of the 2025 Law on Science, Technology and Innovation.",
-      "He also served as a project manager at the Vingroup Innovation Foundation (VINIF), and taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, Hanoi University of Science and Technology (2004–2016), and at the Faculty of Electronics and Telecommunications, VNU University of Engineering and Technology (VNU-UET, since 2022).",
-      "On the entrepreneurial side, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease (diabetes) management. He has also contributed to managing science-and-technology activities at the Agricultural Support Technology Research Institute (Astri) and the Nha Trang Institute of Technology Research and Application (Nitia).",
-      "Dr. Chu Duc Hoang has published more than 50 scientific papers, delivered more than 20 conference presentations both domestically and internationally, co-authored 4 books/edited volumes, and led 5 research projects spanning Biomedical Engineering, Healthcare, Technology-Innovation Policy, AI, and Digital Transformation.",
-      "In public service, he is Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE), Deputy Head of the Liaison Board of the Chu Clan Association of Vietnam (HoChu), an Executive Committee member of the Vietnam–Canada Friendship Association (CVFA), a member/coordinator of the Leaders in Innovation Fellowships Vietnam network (LIFVietnam — supported by the UK's Royal Academy of Engineering and the Newton Fund), and an advisory-board member of Hack4Growth (AVSE Global) and the National Techfest.",
     ],
     educationTitle: "Education",
     education: [
@@ -123,104 +124,23 @@ const en: Site = {
       { name: "English", level: "Fluent" },
       { name: "German", level: "Basic" },
     ],
-    affiliationsTitle: "Affiliations",
-    affiliations: [
-      "Vice Chairman — Vietnam Association of Young Scientists and Engineers (VAYSE)",
-      "Deputy Head, Liaison Board — Chu Clan Association of Vietnam (HoChu)",
-      "Executive Committee Member — Vietnam–Canada Friendship Association (CVFA)",
-      "Member/Coordinator — LIFVietnam R&D Commercialization Network",
-      "Advisory Board Member — Hack4Growth (AVSE Global) & National Techfest",
-      "Administrator — Vietnam Biomedical Engineering Community",
-    ],
+    exploreTitle: "Explore More",
+    exploreResearch: "Research",
+    exploreResearchDesc: "Publications, strong research groups, and a Google Scholar profile.",
+    exploreManagement: "Management",
+    exploreManagementDesc: "Track record managing science, technology, and innovation projects and tasks.",
+    exploreMedia: "Media",
+    exploreMediaDesc: "Press articles, interviews, and media coverage.",
   },
-  experience: {
-    title: "Experience",
-    intro:
-      "Over 20 years spanning research, teaching, national technology-innovation fund management, and digital-health entrepreneurship.",
-    items: [
-      {
-        role: "Chairman, Governing Board",
-        org: "Vietnam Institute of Science, Technology and Innovation Strategy (STI)",
-        period: "06/2025 – present",
-        current: true,
-        bullets: [
-          "Leads an independent research institute bridging private-sector perspectives with public policy, focused on MSME digital transformation, applied AI, and green-innovation strategy.",
-          "Directs the development of foundational research reports and policy recommendations for international and regional cooperation frameworks.",
-          "Builds multi-stakeholder networks (Government – Industry – Academia) to advance comprehensive digital-transformation models.",
-        ],
-      },
-      {
-        role: "Vice Chairman",
-        org: "Vietnam Association of Young Scientists and Engineers (VAYSE)",
-        period: "2015 – present",
-        bullets: [
-          "Leads national initiatives bringing together young intellectuals, technology founders, and youth-led MSMEs on digital transformation.",
-          "Advocates for national science-and-technology policy and promotes an inclusive culture of innovation among young people.",
-          "Organizes and coordinates high-level forums and conferences connecting startups with investors and policymakers.",
-        ],
-      },
-      {
-        role: "Chief of Office",
-        org: "National Technology Innovation Fund (NATIF), Ministry of Science and Technology",
-        period: "03/2016 – 05/2025",
-        bullets: [
-          "Directed administrative operations and managed a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million.",
-          "Drafted and appraised national legal frameworks, contributing to the 2025 Law on Science, Technology and Innovation, including blended-finance mechanisms (loans, grants, interest-rate support) for small and medium enterprises.",
-          "Coordinated the Knowledge Sharing Program (KSP) between Vietnam and South Korea (Korea's Ministry of Economy and Finance & KIBO), aligning national STI policy with international ODA standards.",
-        ],
-      },
-      {
-        role: "Department Head / Project Manager",
-        org: "Vingroup Innovation Foundation (VINIF), Vingroup",
-        period: "11/2018 – 09/2022",
-        bullets: [
-          "Managed technology-innovation projects and disbursed research grants for high-value national initiatives, with a focus on Big Data, AI, and applied digital technology.",
-          "Built appraisal processes, set rigorous KPIs, and oversaw project implementation.",
-        ],
-      },
-      {
-        role: "Co-founder & Chairman",
-        org: "Zinmed Vietnam JSC",
-        period: "09/2014 – present",
-        bullets: [
-          "Brings a founder's practical perspective to a digital-health startup focused on chronic-disease management via IoT and cloud computing.",
-          "Successfully commercialized R&D outcomes, deploying practical, scalable healthcare solutions at medical facilities.",
-        ],
-      },
-      {
-        role: "Program Manager (Social Welfare & Reintegration)",
-        org: "Blue Dragon Children's Foundation",
-        period: "Ongoing",
-        bullets: [
-          "Leads social-welfare development projects aimed at inclusive growth (empowering women and disadvantaged youth).",
-          "Contributes practical policy recommendations for sustainable reintegration, gender equality, and social inclusion.",
-        ],
-      },
-      {
-        role: "Senior Lecturer & Researcher",
-        org: "Hanoi University of Science and Technology (HUST) & VNU University of Engineering and Technology (VNU-UET)",
-        period: "09/2004 – 03/2016 (HUST); 09/2022 – present (VNU-UET)",
-        bullets: [
-          "Taught courses in Biomedical Engineering and Electronics.",
-          "Led scientific research on Machine Learning in healthcare, cardiac informatics, and smart agriculture (IoT/edge computing).",
-        ],
-      },
-      {
-        role: "Other Leadership & Advisory Roles",
-        org: "Multiple domestic and international organizations",
-        period: "2015 – present",
-        bullets: [
-          "Member/Coordinator at LIFVietnam — R&D Commercialization Network (supported by the UK's Royal Academy of Engineering and the Newton Fund).",
-          "Executive Committee Member, Vietnam–Canada Friendship Association (CVFA), contributing to science diplomacy and bilateral technical cooperation.",
-          "Advisory Board Member, Hack4Growth (AVSE Global) & National Techfest — mentor and judge for leading innovation competitions.",
-        ],
-      },
-    ],
-  },
-  publications: {
-    title: "Publications",
+  research: {
+    title: "Research",
     intro:
       "More than 50 scientific papers, 20+ domestic/international conference presentations, 4 books/edited volumes, and numerous policy reports, organized into four main thematic groups.",
+    scholarLabel: "View Google Scholar Profile",
+    scholarUrl: "https://scholar.google.com/citations?hl=vi&user=tcJwNTsAAAAJ",
+    strongGroupsTitle: "Strong Research Groups by Theme",
+    strongGroupsIntro:
+      "Research directions sustained continuously over many years, from technology-innovation policy to biomedical engineering.",
     selectedTitle: "Selected Publications by Theme",
     groups: [
       {
@@ -339,12 +259,132 @@ const en: Site = {
       { title: "Legal framework to support innovative-startup entrepreneurship", date: "11/2020" },
     ],
   },
-  blog: {
-    title: "Blog",
-    intro: "Perspectives on science-and-technology policy, digital transformation, and innovation.",
+  management: {
+    title: "Management",
+    intro:
+      "An overview of managing science, technology, and innovation (STI) projects, programs, and tasks. The framework below will be updated with specific projects and figures.",
+    placeholderNote:
+      "This page is currently a first-draft framework, based on Dr. Chu Duc Hoang's publicly known career record. Detailed information on individual projects and tasks (name, role, timing) will be provided and updated by him.",
+    items: [
+      {
+        role: "Chief of Office",
+        org: "National Technology Innovation Fund (NATIF), Ministry of Science and Technology",
+        period: "03/2016 – present",
+        current: true,
+        bullets: [
+          "Directs administrative operations and manages a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million.",
+          "Drafts and appraises national legal frameworks, contributing to the 2025 Law on Science, Technology and Innovation, including blended-finance mechanisms (loans, grants, interest-rate support) for small and medium enterprises.",
+          "Coordinates the Knowledge Sharing Program (KSP) between Vietnam and South Korea (Korea's Ministry of Economy and Finance & KIBO), aligning national STI policy with international ODA standards.",
+        ],
+      },
+      {
+        role: "Head, Funding & Commissioning Department",
+        org: "National Technology Innovation Fund (NATIF), Ministry of Science and Technology",
+        period: "Present",
+        current: true,
+        bullets: [
+          "Manages the funding and commissioning process for science-and-technology tasks, appraising applications and overseeing disbursement progress for technology-innovation projects.",
+        ],
+      },
+      {
+        role: "Chairman, Labor Union",
+        org: "National Technology Innovation Fund (NATIF), Ministry of Science and Technology",
+        period: "Present",
+        current: true,
+        bullets: [
+          "Represents and advocates for the interests of the Fund's staff, organizing labor-union activities and initiatives.",
+        ],
+      },
+      {
+        role: "Department Head / Project Manager",
+        org: "Vingroup Innovation Foundation (VINIF), Vingroup",
+        period: "11/2018 – 09/2022",
+        bullets: [
+          "Managed technology-innovation projects and disbursed research grants for high-value national initiatives, with a focus on Big Data, AI, and applied digital technology.",
+          "Built appraisal processes, set rigorous KPIs, and oversaw project implementation.",
+        ],
+      },
+      {
+        role: "Co-founder & Chairman",
+        org: "Zinmed Vietnam JSC",
+        period: "09/2014 – present",
+        bullets: [
+          "Brings a founder's practical perspective to a digital-health startup focused on chronic-disease management via IoT and cloud computing.",
+          "Successfully commercialized R&D outcomes, deploying practical, scalable healthcare solutions at medical facilities.",
+        ],
+      },
+      {
+        role: "Program Manager (Social Welfare & Reintegration)",
+        org: "Blue Dragon Children's Foundation",
+        period: "Ongoing",
+        bullets: [
+          "Leads social-welfare development projects aimed at inclusive growth (empowering women and disadvantaged youth).",
+          "Contributes practical policy recommendations for sustainable reintegration, gender equality, and social inclusion.",
+        ],
+      },
+      {
+        role: "Senior Lecturer & Researcher",
+        org: "Hanoi University of Science and Technology (HUST) & VNU University of Engineering and Technology (VNU-UET)",
+        period: "09/2004 – 03/2016 (HUST); 09/2022 – present (VNU-UET)",
+        bullets: [
+          "Taught courses in Biomedical Engineering and Electronics.",
+          "Led scientific research on Machine Learning in healthcare, cardiac informatics, and smart agriculture (IoT/edge computing).",
+        ],
+      },
+      {
+        role: "Vice Chairman",
+        org: "Vietnam Association of Young Scientists and Engineers (VAYSE)",
+        period: "2015 – present",
+        bullets: [
+          "Leads national initiatives bringing together young intellectuals, technology founders, and youth-led MSMEs on digital transformation.",
+          "Advocates for national science-and-technology policy and promotes an inclusive culture of innovation among young people.",
+        ],
+      },
+    ],
+  },
+  media: {
+    title: "Media",
+    intro: "A collection of press articles, interviews, and media coverage of Dr. Chu Duc Hoang.",
+    curatedTitle: "Press Articles & Interviews",
+    curatedIntro: "Compiled from newspapers, official portals, and event organizers (2020 – present).",
+    curated: [
+      { title: "Fewer than 15% of supporting-industry enterprises apply Industry 4.0 technology", source: "Đại biểu Nhân dân", date: "12/2024", url: "https://daibieunhandan.vn/chua-day-15-doanh-nghiep-cong-nghiep-ho-tro-ap-dung-cong-nghe-40-post400135.html" },
+      { title: "Forum on Accelerating Economic Growth-Model Innovation in Vietnam", source: "Tài chính Doanh nghiệp", date: "2024", url: "https://taichinhdoanhnghiep.net.vn/dien-dan-day-manh-doi-moi-mo-hinh-tang-truong-kinh-te-o-viet-nam-d50936.html" },
+      { title: "Improving technology-innovation capacity for small and medium enterprises", source: "Communist Party of Vietnam Online Newspaper", date: "2024", url: "https://dangcongsan.org.vn/bokhoahoccongnghe/lists/tinhoatdong/View_Detail.aspx?ItemID=1146" },
+      { title: "An 11-component model for dual transformation", source: "Government Media (media.chinhphu.vn)", date: "08/2024", url: "https://media.chinhphu.vn/mo-hinh-11-thanh-phan-trong-chuyen-doi-kep-102240812160228061.htm" },
+      { title: "Techfest Bac Giang 2023 innovation-startup competition final and closing ceremony", source: "Bac Giang Dept. of Science and Technology", date: "2023", url: "https://skhcn.bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/4roH7oNwBEIm/content/chung-ket-cuoc-thi-khoi-nghiep-oi-moi-sang-tao-va-be-mac-techfest-bac-giang-2023" },
+      { title: "University of Danang awards Student Scientific Research prizes for 2022–2023", source: "University of Danang (UDN)", date: "2023", url: "https://www.udn.vn/tin-tuc/chi-tiet/danh-muc/%C4%91%E1%BB%95i-m%E1%BB%9Bi-s%C3%A1ng-t%E1%BA%A1o/dai-hoc-da-nang-trao-giai-thuong-sinh-vien-nghien-cuu-khoa-hoc-nam-hoc-2022-2023-va-festival-trien-lam-sang-tao-tre-lan-thu-v-nam-2023" },
+      { title: "In-depth training on innovation-startup models and ideas in Bac Ninh province, 2023", source: "Bac Ninh Dept. of Science and Technology", date: "2023", url: "https://skhcn.bacninh.gov.vn/news/-/details/22549/tap-huan-chuyen-sau-mo-hinh-y-tuong-khoi-nghiep-oi-moi-sang-tao-tinh-bac-ninh-nam-2023-52260698" },
+      { title: "Vietnam's energy sector – prospects and challenges", source: "Ministry of Science and Technology", date: "2023", url: "https://www.most.gov.vn/vn/tin-tuc/23752/nganh-nang-luong-viet-nam---trien-vong-va-thach-thuc.aspx" },
+      { title: "NATIF Labor Union 2nd Congress, 2023–2028 term", source: "MOST Labor Union", date: "2023", url: "https://congdoan.most.gov.vn/congdoan/tin-tuc/1/3468/dai-hoi-cong-doan-quy-doi-moi-cong-nghe-quoc-gia-lan-thu-ii--nhiem-ky-2023---2028-thanh-cong-tot-dep.aspx" },
+      { title: "Workshop on applying technology in biomedical engineering", source: "VNU University of Engineering and Technology", date: "2023", url: "https://uet.vnu.edu.vn/hoi-thao-ung-dung-cong-nghe-trong-linh-vuc-y-sinh/" },
+      { title: "Using ChatGPT constructively brings real benefits", source: "Người Lao Động (Labor Newspaper)", date: "2023", url: "https://nld.com.vn/cong-nghe/dung-chatgpt-tich-cuc-se-huong-duoc-loi-ich-20230217213310953.htm" },
+      { title: "Need for mechanisms encouraging enterprises to lead in technology", source: "VietQ", date: "2022" },
+      { title: "Science, technology and innovation policy needs further refinement", source: "Hanoi Moi", date: "2022", url: "http://www.hanoimoi.com.vn/tin-tuc/Khoa-hoc/1040711/chinh-sach-cho-hoat-dong-khoa-hoc-cong-nghe-va-doi-moi-sang-tao-can-duoc-bo-sung-va-hoan-thien" },
+      { title: "Final piece: Promoting innovation — is the bottleneck institutional?", source: "Government Newspaper", date: "2022", url: "https://baochinhphu.vn/bai-cuoi-thuc-day-doi-moi-sang-tao-nut-that-o-co-che-10222042710504255.htm" },
+      { title: "Unlocking the Science & Technology Development Fund", source: "Agricultural Ecosystem", date: "2022", url: "https://sinhthainongnghiep.net.vn/khoi-thong-quy-phat-trien-khoa-hoc-cong-nghe-chia-khoa-phuc-hoi-doanh-nghiep-sau-dai-dich-va-thuc-day-chuyen-doi-so/" },
+      { title: "Unlocking investment sources for R&D", source: "Nhan Dan", date: "01/2022", url: "https://nhandan.vn/goc-nhin-kinh-te/khoi-nguon-dau-tu-cho-r-d-682313/" },
+      { title: "Opportunities and challenges in scientific research for young scientists", source: "IWRP", date: "2022", url: "http://iwrp.gov.vn/d1700/co-hoi-va-thach-thuc-trong-nghien-cuu-khoa-hoc-doi-voi-cac-nha-khoa-hoc-tre-giai-doan-cach-mang-cong-nghiep-4.0.html" },
+      { title: "Digital transformation helps rural youth overcome the Covid-19 \"storm\"", source: "VOV", date: "2022", url: "https://vov.vn/xa-hoi/chuyen-doi-so-giup-thanh-nien-nong-thon-vuot-bao-covid-19-post916639.vov" },
+      { title: "Addressing financing difficulties for enterprises in innovation", source: "Economics and Forecasting Review", date: "12/2021", url: "https://kinhtevadubao.vn/giai-quyet-kho-khan-ve-nguon-tai-tro-cho-doanh-nghiep-trong-doi-moi-sang-tao-20613.html" },
+      { title: "Unleashing the strength of young intellectuals in digital transformation", source: "Nhan Dan", date: "2021", url: "https://nhandan.vn/thong-tin-so/khoi-dong-suc-manh-tri-thuc-tre-trong-chuyen-doi-so-678084" },
+      { title: "Digital transformation is key to overcoming Covid-19 difficulties", source: "Tuoi Tre", date: "11/2021", url: "https://tuoitre.vn/chuyen-doi-so-la-chia-khoa-vuot-kho-khan-trong-dai-dich-covid-19-20211125192102627.htm" },
+      { title: "Young Vietnamese intellectuals propose ideas for national digital transformation", source: "The World & Vietnam Report", date: "2021" },
+      { title: "Using technology to care for and improve public health", source: "An Ninh Thu Do", date: "2021", url: "https://anninhthudo.vn/su-dung-cong-nghe-de-cham-soc-nang-cao-suc-khoe-post485039.antd" },
+      { title: "Applying technology to serve digital transformation and green growth", source: "Ho Chi Minh Communist Youth Union", date: "2021", url: "http://doanthanhnien.vn/tin-tuc/tuoi-tre-sang-tao/ung-dung-cong-nghe-phuc-vu-chuyen-doi-so-va-tang-truong-xanh" },
+      { title: "Promoting research-result transfer amid digital transformation and Covid-19", source: "Ministry of Science and Technology", date: "2021", url: "https://www.most.gov.vn/vn/tin-tuc/20663/thuc-day-chuyen-giao-ket-qua-nghien-cuu-trong-boi-canh-chuyen-doi-so-va-dai-dich-covid-19.aspx" },
+      { title: "Multiplying the value of knowledge resources in life", source: "Economics and Forecasting Review", date: "2021", url: "https://kinhtevadubao.vn/de-nguon-luc-tri-thuc-nhan-len-gia-tri-cuoc-song-17497.html" },
+      { title: "Innovation: a solution for enterprises from the National Technology Innovation Fund", source: "Economics and Forecasting Review", date: "2021", url: "https://kinhtevadubao.vn/doi-moi-sang-tao-giai-phap-giup-doanh-nghiep-tu-quy-doi-moi-cong-nghe-quoc-gia-18083.html" },
+      { title: "InnoCity 2021 searches for young Vietnamese innovators across Europe", source: "ICT Vietnam", date: "06/2021", url: "https://ictvietnam.vn/innocity-2021-tim-kiem-sang-kien-tre-viet-nam-toan-chau-au-20210615224937772.htm" },
+      { title: "Bringing out the best in the new generation of youth", source: "Đại biểu Nhân dân", date: "2021", url: "https://www.daibieunhandan.vn/phat-huy-toi-da-ban-linh-thanh-nien-the-he-moi" },
+      { title: "Scientific workshop on \"Robotics and Smart Manufacturing\"", source: "VNU University of Engineering and Technology", date: "2021", url: "https://uet.vnu.edu.vn/hoi-thao-khoa-hoc-voi-chu-de-robot-va-san-xuat-thong-minh/" },
+      { title: "Dr. Chu Duc Hoang: Turning ideas into products must happen \"at lightning speed\"", source: "Vietnam Young Entrepreneurs", date: "2021", url: "http://doanhnhantrevietnam.vn/ts-chu-duc-hoang-tu-y-tuong-tao-ra-san-pham-phai-than-toc-d3871.html" },
+      { title: "Medical service robots: an emerging market in Vietnam?", source: "Science & Development Knowledge", date: "12/2020", url: "https://khoahocphattrien.vn/chinh-sach/robot-dich-vu-y-te-thi-truong-tiem-nang-sap-toi-o-viet-nam/20201217105153250p1c785.htm" },
+    ],
+    postsTitle: "Posts on this site",
     readMore: "Read more",
     backToList: "← Back to all posts",
-    empty: "No posts have been published yet. Check back soon!",
+    empty: "No posts have been published directly on this site yet. See the press coverage above.",
   },
   contact: {
     title: "Contact",

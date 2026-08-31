@@ -45,7 +45,7 @@ export default function BlogCard({
         )}
         <h3 className="mt-2 text-lg font-semibold text-slate-900">
           <Link
-            href={`/${locale}/blog/${post.slug}`}
+            href={`/${locale}/media/${post.slug}`}
             className="hover:text-emerald-700"
           >
             {title}
@@ -69,7 +69,7 @@ export default function BlogCard({
           </div>
         )}
         <Link
-          href={`/${locale}/blog/${post.slug}`}
+          href={`/${locale}/media/${post.slug}`}
           className="mt-4 text-sm font-semibold text-emerald-700 hover:text-emerald-800"
         >
           {readMoreLabel} →

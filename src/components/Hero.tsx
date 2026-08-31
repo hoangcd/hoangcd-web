@@ -28,7 +28,7 @@ export default function Hero({
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href={`/${locale}/experience`}
+              href={`/${locale}/management`}
               className="inline-flex items-center gap-2 rounded-md bg-emerald-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-500"
             >
               {dict.hero.ctaPrimary}

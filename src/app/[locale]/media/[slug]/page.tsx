@@ -21,7 +21,7 @@ export async function generateMetadata({
   return { title, description: excerpt };
 }
 
-export default async function BlogPostPage({
+export default async function MediaPostPage({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>;
@@ -29,7 +29,7 @@ export default async function BlogPostPage({
   const { locale, slug } = await params;
   if (!isValidLocale(locale)) notFound();
   const l = locale as Locale;
-  const dict = getDictionary(l).blog;
+  const dict = getDictionary(l).media;
 
   const post = await getPostBySlug(slug).catch(() => null);
   if (!post) notFound();
@@ -46,7 +46,7 @@ export default async function BlogPostPage({
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
       <Link
-        href={`/${l}/blog`}
+        href={`/${l}/media`}
         className="text-sm font-semibold text-emerald-700 hover:text-emerald-800"
       >
         {dict.backToList}

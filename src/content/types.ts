@@ -18,6 +18,13 @@ export interface Certification {
   meta: string;
 }
 
+export interface MediaItem {
+  title: string;
+  source: string;
+  date: string;
+  url?: string;
+}
+
 export interface Site {
   meta: {
     siteName: string;
@@ -26,10 +33,9 @@ export interface Site {
   };
   nav: {
     home: string;
-    about: string;
-    experience: string;
-    publications: string;
-    blog: string;
+    research: string;
+    management: string;
+    media: string;
     contact: string;
   };
   hero: {
@@ -42,35 +48,35 @@ export interface Site {
     quoteSource: string;
   };
   home: {
+    primaryRolesTitle: string;
+    primaryRoles: string[];
+    concurrentRolesTitle: string;
+    concurrentRoles: string[];
+    bioTitle: string;
+    bio: string[];
     expertiseTitle: string;
     expertise: { title: string; description: string }[];
-    aboutPreviewTitle: string;
-    aboutPreview: string;
-    readMore: string;
-    latestPostsTitle: string;
-    viewAllPosts: string;
-    noPosts: string;
-  };
-  about: {
-    title: string;
-    intro: string[];
     educationTitle: string;
     education: { degree: string; school: string; period: string }[];
     certsTitle: string;
     certs: Certification[];
     languagesTitle: string;
     languages: { name: string; level: string }[];
-    affiliationsTitle: string;
-    affiliations: string[];
+    exploreTitle: string;
+    exploreResearch: string;
+    exploreResearchDesc: string;
+    exploreManagement: string;
+    exploreManagementDesc: string;
+    exploreMedia: string;
+    exploreMediaDesc: string;
   };
-  experience: {
+  research: {
     title: string;
     intro: string;
-    items: TimelineItem[];
-  };
-  publications: {
-    title: string;
-    intro: string;
+    scholarLabel: string;
+    scholarUrl: string;
+    strongGroupsTitle: string;
+    strongGroupsIntro: string;
     selectedTitle: string;
     groups: PublicationGroup[];
     fullListTitle: string;
@@ -80,12 +86,22 @@ export interface Site {
     reportsIntro: string;
     reports: { title: string; date: string }[];
   };
-  blog: {
+  management: {
     title: string;
     intro: string;
+    placeholderNote: string;
+    items: TimelineItem[];
+  };
+  media: {
+    title: string;
+    intro: string;
+    curatedTitle: string;
+    curatedIntro: string;
+    curated: MediaItem[];
+    postsTitle: string;
     readMore: string;
-    backToList: string;
     empty: string;
+    backToList: string;
   };
   contact: {
     title: string;
