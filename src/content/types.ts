@@ -25,6 +25,11 @@ export interface MediaItem {
   url?: string;
 }
 
+export interface Stat {
+  value: string;
+  label: string;
+}
+
 export interface Site {
   meta: {
     siteName: string;
@@ -38,12 +43,15 @@ export interface Site {
     media: string;
     contact: string;
   };
-  hero: {
-    kicker: string;
+  profile: {
     name: string;
-    tagline: string;
+    headline: string;
+    org: string;
+    location: string;
     ctaPrimary: string;
     ctaSecondary: string;
+    stats: Stat[];
+    statsNote: string;
     quote: string;
     quoteSource: string;
   };
@@ -60,6 +68,8 @@ export interface Site {
     education: { degree: string; school: string; period: string }[];
     certsTitle: string;
     certs: Certification[];
+    honorsTitle: string;
+    honors: string[];
     languagesTitle: string;
     languages: { name: string; level: string }[];
     exploreTitle: string;
@@ -114,9 +124,14 @@ export interface Site {
     formError: string;
     detailsTitle: string;
     socialTitle: string;
+    emailLabel: string;
+    emailPersonal: string;
+    emailWork: string;
   };
   footer: {
     rights: string;
     builtWith: string;
+    connectTitle: string;
+    navTitle: string;
   };
 }

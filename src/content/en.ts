@@ -14,12 +14,21 @@ const en: Site = {
     media: "Media",
     contact: "Contact",
   },
-  hero: {
-    kicker: "DR. CHU DUC HOANG",
-    name: "Chu Duc Hoang",
-    tagline: "Chief of Office, National Technology Innovation Fund (NATIF)",
-    ctaPrimary: "View Management Background",
-    ctaSecondary: "Get in Touch",
+  profile: {
+    name: "Dr. Chu Duc Hoang",
+    headline: "Chief of Office, National Technology Innovation Fund (NATIF)",
+    org: "Ministry of Science and Technology",
+    location: "Hanoi, Vietnam",
+    ctaPrimary: "Get in touch",
+    ctaSecondary: "Google Scholar",
+    stats: [
+      { value: "20+", label: "Years of experience" },
+      { value: "50+", label: "Publications" },
+      { value: "482", label: "Citations" },
+      { value: "8", label: "h-index" },
+    ],
+    statsNote:
+      "Citation count, h-index and i10-index per the Google Scholar profile, updated August 2026.",
     quote:
       "The digital economy and the green economy are not just inevitable trends — they are the path that opens the door to sustainable development for Vietnam.",
     quoteSource: "— Remarks at the BCG Tech conference, 2024",
@@ -33,35 +42,35 @@ const en: Site = {
     ],
     concurrentRolesTitle: "Concurrent Roles",
     concurrentRoles: [
-      "Visiting Lecturer, VNU University of Engineering and Technology (VNU-UET) and other training institutions",
+      "Visiting Lecturer, VNU University of Engineering and Technology and other training institutions",
       "Vice Chairman, Vietnam Association of Young Scientists and Engineers",
       "Management Advisor to several research institutes",
     ],
     bioTitle: "About",
     bio: [
       "Dr. Chu Duc Hoang holds a PhD in Electronics and Biomedical Engineering from Hanoi University of Science and Technology (HUST), and was a visiting researcher at Washington University in St. Louis, USA.",
-      "Since 2016, he has served as Chief of Office of the National Technology Innovation Fund (NATIF) at the Ministry of Science and Technology, while also serving as Head of the Fund's Funding & Commissioning Department and Chairman of its Labor Union. He directly contributes to managing a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million, and has contributed to drafting the 2025 Law on Science, Technology and Innovation.",
+      "Since 2016 he has served as Chief of Office of the National Technology Innovation Fund (NATIF) at the Ministry of Science and Technology, while also serving as Head of the Fund's Funding & Commissioning Department and Chairman of its Labor Union.",
+      "In managing the national technology innovation fund, he helps direct the Fund's operations and contributes to refining the financial mechanisms and policies that support enterprise technology innovation. The through-line of that work is bringing state support closer to enterprises — particularly small and medium ones — as they build technological capability, adopt digital tools, and grow sustainably.",
       "Alongside his management role, he is a visiting lecturer at VNU University of Engineering and Technology (VNU-UET) and other training institutions; Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE); and a management advisor to several research institutes.",
-      "Before joining NATIF, he served as a project manager at the Vingroup Innovation Foundation (VINIF), and taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, Hanoi University of Science and Technology (2004–2016).",
-      "On the entrepreneurial side, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease (diabetes) management. He has also contributed to managing science-and-technology activities at several applied-technology research institutes.",
-      "Dr. Chu Duc Hoang has published more than 50 scientific papers, delivered more than 20 conference presentations both domestically and internationally, and co-authored 4 books/edited volumes spanning Biomedical Engineering, Technology-Innovation Policy, AI, and Digital Transformation.",
+      "Before joining NATIF, he served as a project manager at the Vingroup Innovation Foundation (VINIF), and taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, HUST (2004–2016). As an entrepreneur, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease management.",
+      "Academically, he has authored and co-authored more than 50 scientific publications, over 20 domestic and international conference papers, and 4 books and edited volumes. Per his Google Scholar profile (updated August 2026), his work has been cited 482 times, with an h-index of 8 and an i10-index of 5, concentrated in Biomedical Engineering, technology-innovation policy, Artificial Intelligence and Digital Transformation.",
     ],
     expertiseTitle: "Areas of Expertise",
     expertise: [
       {
-        title: "STI Policy & Management",
+        title: "STI Management & Policy Formulation",
         description:
-          "Designing technology-innovation policy, Triple-Helix ecosystems (Government – Academia – Industry), managing national R&D funds, and building capacity for MSMEs.",
+          "Designing and refining technology-innovation policy, developing the Triple-Helix ecosystem (Government – Academia – Industry), and managing national-scale funds and research grant programmes.",
       },
       {
-        title: "AI, Big Data & Digital Transformation",
+        title: "Research & Teaching in Biomedical Engineering, Electronics, IoT, Data and Digital Transformation",
         description:
-          "Machine Learning and Generative AI for policymaking; enterprise digital transformation; IoT and green infrastructure.",
+          "Teaching and research across biomedical engineering, electronics, IoT, big-data analytics and artificial intelligence; supervising doctoral researchers and leading interdisciplinary research groups.",
       },
       {
-        title: "Digital Health & Biomedical Engineering",
+        title: "Advisory & Consulting for Technology-Innovation Projects and Startups",
         description:
-          "Hospital information systems (HIS), cardiovascular signal analysis (HRV, arrhythmia), and digital-health entrepreneurship (Zinmed).",
+          "Advising, appraising and accompanying technology-innovation projects, science-and-technology enterprises and startups — from idea formation and technology maturation through to commercialization and fundraising.",
       },
     ],
     educationTitle: "Education",
@@ -87,36 +96,44 @@ const en: Site = {
         period: "1999 – 2004",
       },
     ],
-    certsTitle: "Notable Professional Certifications",
+    certsTitle: "Certifications & Advanced Training",
     certs: [
       {
+        title: "Senior Professional Engineer in Science & Technology Management",
+        meta: "Vietnam Academy of Science, Technology and Innovation — MOST, 2020",
+      },
+      {
+        title: "Advanced Public Management & High-level Political Theory",
+        meta: "National Academy of Public Administration & Ho Chi Minh National Academy of Politics, 2022–2024",
+      },
+      {
         title: "ISO 14064 (GHG Inventory) & ISO 14067 (Carbon Footprint)",
-        meta: "QUACERT, Vietnam — 2024",
+        meta: "QUACERT, Vietnam, 2024",
       },
       {
-        title: "Senior Public Administration & Advanced Political Theory",
-        meta: "National Academy of Public Administration & Ho Chi Minh National Academy of Politics — 2022–2024",
-      },
-      {
-        title: "Senior Engineer in Science & Technology Management",
-        meta: "Vietnam Institute of Science, Technology and Innovation Strategy — MOST — 2020",
-      },
-      {
-        title: "Technology Finance Certificate",
-        meta: "Korea Technology Finance Corporation (KIBO), South Korea — 2017",
-      },
-      {
-        title: "Entrepreneurship & Innovation Training Program",
-        meta: "Malaysian Global Innovation & Creativity Centre (MaGIC), Malaysia — 2016",
+        title: "Advanced Certificate in Technology Finance",
+        meta: "Korea Technology Finance Corporation (KIBO), Republic of Korea, 2017",
       },
       {
         title: "Leaders in Innovation Fellowships (LIF)",
-        meta: "Royal Academy of Engineering, United Kingdom — 2015",
+        meta: "Royal Academy of Engineering, United Kingdom, 2015",
       },
       {
-        title: "Graduate Founder (Zinmed – Digital Health)",
-        meta: "Topica Founder Institute, USA/Vietnam — 2014",
+        title: "Innovation & Entrepreneurship Training Programme",
+        meta: "Malaysian Global Innovation & Creativity Centre (MaGIC), Malaysia, 2016",
       },
+      {
+        title: "Graduate Founder — Zinmed (Digital Health)",
+        meta: "Topica Founder Institute, USA/Vietnam, 2014",
+      },
+    ],
+    honorsTitle: "Notable Positions & Roles",
+    honors: [
+      "Coordinator — LIF Vietnam R&D Commercialization Network, supported by the Royal Academy of Engineering (UK) and the Newton Fund",
+      "Coordinator of the Knowledge Sharing Program (KSP) between Vietnam and the Republic of Korea, with Korea's Ministry of Economy and Finance and KIBO",
+      "Advisory Board Member & Jury — Hack4Growth (AVSE Global) and the National Techfest",
+      "Executive Committee Member — Vietnam–Canada Friendship Association (CVFA)",
+      "Administrator — Vietnam Biomedical Engineering Community",
     ],
     languagesTitle: "Languages",
     languages: [
@@ -397,10 +414,15 @@ const en: Site = {
     formError: "Something went wrong — please try again or reach out directly by email.",
     detailsTitle: "Contact Details",
     socialTitle: "Social",
+    emailLabel: "Email",
+    emailPersonal: "hoangcd@gmail.com",
+    emailWork: "hoangcd@natif.gov.vn",
   },
   footer: {
     rights: "All rights reserved.",
     builtWith: "",
+    connectTitle: "Connect",
+    navTitle: "Sections",
   },
 };
 

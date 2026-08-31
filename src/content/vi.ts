@@ -14,12 +14,21 @@ const vi: Site = {
     media: "Media",
     contact: "Liên hệ",
   },
-  hero: {
-    kicker: "TS. CHỬ ĐỨC HOÀNG",
-    name: "Chử Đức Hoàng",
-    tagline: "Chánh Văn phòng Quỹ Đổi mới công nghệ quốc gia (NATIF)",
-    ctaPrimary: "Xem quá trình quản lý",
-    ctaSecondary: "Liên hệ",
+  profile: {
+    name: "TS. Chử Đức Hoàng",
+    headline: "Chánh Văn phòng Quỹ Đổi mới công nghệ quốc gia (NATIF)",
+    org: "Bộ Khoa học và Công nghệ",
+    location: "Hà Nội, Việt Nam",
+    ctaPrimary: "Liên hệ",
+    ctaSecondary: "Google Scholar",
+    stats: [
+      { value: "20+", label: "Năm kinh nghiệm" },
+      { value: "50+", label: "Công bố khoa học" },
+      { value: "482", label: "Trích dẫn" },
+      { value: "8", label: "h-index" },
+    ],
+    statsNote:
+      "Chỉ số trích dẫn, h-index và i10-index theo hồ sơ Google Scholar, cập nhật tháng 8/2026.",
     quote:
       "Kinh tế số và kinh tế xanh không chỉ là xu hướng tất yếu mà còn là con đường mở ra cơ hội cho sự phát triển bền vững của Việt Nam.",
     quoteSource: "— Phát biểu tại hội thảo BCG Tech, 2024",
@@ -40,28 +49,28 @@ const vi: Site = {
     bioTitle: "Giới thiệu",
     bio: [
       "TS. Chử Đức Hoàng nhận bằng Tiến sĩ Kỹ thuật Điện tử và Y sinh tại Đại học Bách Khoa Hà Nội (HUST), từng là nghiên cứu sinh thỉnh giảng tại Đại học Washington ở St. Louis, Hoa Kỳ.",
-      "Từ năm 2016 đến nay, ông giữ cương vị Chánh Văn phòng Quỹ Đổi mới công nghệ quốc gia (NATIF), Bộ Khoa học và Công nghệ, đồng thời đảm nhiệm vai trò Trưởng phòng Tài trợ và Đặt hàng và Chủ tịch Công đoàn của Quỹ. Ông trực tiếp tham gia quản lý danh mục hơn 80 dự án khoa học công nghệ quốc gia với tổng vốn điều lệ khoảng 86,7 triệu USD, đồng thời góp phần soạn thảo Luật Khoa học, Công nghệ và Đổi mới sáng tạo 2025.",
+      "Từ năm 2016 đến nay, ông giữ cương vị Chánh Văn phòng Quỹ Đổi mới công nghệ quốc gia (NATIF), Bộ Khoa học và Công nghệ, đồng thời đảm nhiệm vai trò Trưởng phòng Tài trợ và Đặt hàng và Chủ tịch Công đoàn của Quỹ.",
+      "Trong công tác quản lý quỹ đổi mới công nghệ quốc gia, ông tham gia điều hành hoạt động của Quỹ và góp phần hoàn thiện các cơ chế, chính sách tài chính hỗ trợ doanh nghiệp đổi mới công nghệ. Định hướng xuyên suốt là đưa nguồn lực hỗ trợ của Nhà nước đến gần hơn với doanh nghiệp — đặc biệt là doanh nghiệp nhỏ và vừa — trong quá trình nâng cao năng lực công nghệ, chuyển đổi số và phát triển bền vững.",
       "Song song với công tác quản lý, ông là giảng viên thỉnh giảng tại Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội (VNU-UET) và một số cơ sở đào tạo khác; Phó Chủ tịch Hội Trí thức Khoa học và Công nghệ Trẻ Việt Nam (VAYSE); và cố vấn quản lý cho một số viện nghiên cứu.",
-      "Trước khi công tác tại NATIF, ông từng đảm nhiệm vai trò quản lý dự án tại Quỹ Đổi mới sáng tạo Vingroup (VINIF), và giảng dạy, nghiên cứu ngành Kỹ thuật Y sinh tại Trường Điện – Điện tử, Đại học Bách Khoa Hà Nội (2004–2016).",
-      "Về khởi nghiệp, ông là Đồng sáng lập & Chủ tịch Công ty CP Zinmed Việt Nam — startup công nghệ y tế số ứng dụng IoT và điện toán đám mây trong quản lý bệnh mãn tính (tiểu đường). Ông cũng tham gia quản lý hoạt động khoa học công nghệ tại một số viện nghiên cứu ứng dụng công nghệ.",
-      "TS. Chử Đức Hoàng đã có hơn 50 bài báo khoa học, hơn 20 báo cáo hội thảo trong nước và quốc tế, 4 cuốn sách/tuyển tập trong các lĩnh vực Y sinh, Chính sách đổi mới công nghệ, AI và Chuyển đổi số.",
+      "Trước khi công tác tại NATIF, ông từng đảm nhiệm vai trò quản lý dự án tại Quỹ Đổi mới sáng tạo Vingroup (VINIF), và giảng dạy, nghiên cứu ngành Kỹ thuật Y sinh tại Trường Điện – Điện tử, Đại học Bách Khoa Hà Nội (2004–2016). Về khởi nghiệp, ông là Đồng sáng lập & Chủ tịch Công ty CP Zinmed Việt Nam — startup công nghệ y tế số ứng dụng IoT và điện toán đám mây trong quản lý bệnh mãn tính.",
+      "Về học thuật, ông là tác giả và đồng tác giả của hơn 50 công bố khoa học, hơn 20 báo cáo hội nghị trong nước và quốc tế cùng 4 cuốn sách và tuyển tập. Theo hồ sơ Google Scholar (cập nhật tháng 8/2026), các công trình của ông đạt 482 lượt trích dẫn, chỉ số h-index 8 và i10-index 5, tập trung vào Kỹ thuật Y sinh, Chính sách đổi mới công nghệ, Trí tuệ nhân tạo và Chuyển đổi số.",
     ],
     expertiseTitle: "Lĩnh vực chuyên môn",
     expertise: [
       {
-        title: "Quản lý & Hoạch định chính sách KH,CN&ĐMST",
+        title: "Quản lý & Hoạch định chính sách KHCN&ĐMST",
         description:
-          "Xây dựng chính sách đổi mới công nghệ, hệ sinh thái Triple-Helix (Nhà nước – Học viện – Doanh nghiệp), quản lý quỹ R&D quốc gia, đào tạo năng lực cho MSME.",
+          "Xây dựng và hoàn thiện chính sách đổi mới công nghệ, phát triển hệ sinh thái Triple-Helix (Nhà nước – Viện, trường – Doanh nghiệp), quản lý quỹ và chương trình tài trợ nghiên cứu ở quy mô quốc gia.",
       },
       {
-        title: "AI, Big Data & Chuyển đổi số",
+        title: "Nghiên cứu & Giảng dạy Kỹ thuật Y sinh, Điện tử, IoT, Dữ liệu và Chuyển đổi số",
         description:
-          "Machine Learning, Generative AI, Big Data cho hoạch định chính sách; chuyển đổi số doanh nghiệp; IoT & hạ tầng xanh.",
+          "Giảng dạy và nghiên cứu về kỹ thuật y sinh, điện tử, IoT, phân tích dữ liệu lớn và trí tuệ nhân tạo; hướng dẫn nghiên cứu sinh và chủ trì các nhóm nghiên cứu liên ngành.",
       },
       {
-        title: "Y tế số & Kỹ thuật Y sinh",
+        title: "Cố vấn & Tư vấn dự án đổi mới công nghệ, khởi nghiệp sáng tạo",
         description:
-          "Hệ thống thông tin y tế (HIS), phân tích tim mạch (HRV, loạn nhịp tim), khởi nghiệp công nghệ y tế (Zinmed).",
+          "Cố vấn, thẩm định và đồng hành cùng các dự án đổi mới công nghệ, doanh nghiệp khoa học công nghệ và startup — từ hình thành ý tưởng, hoàn thiện công nghệ đến thương mại hoá và gọi vốn.",
       },
     ],
     educationTitle: "Học vấn",
@@ -87,36 +96,44 @@ const vi: Site = {
         period: "1999 – 2004",
       },
     ],
-    certsTitle: "Chứng chỉ chuyên môn nổi bật",
+    certsTitle: "Chứng chỉ & Đào tạo chuyên sâu",
     certs: [
       {
-        title: "ISO 14064 (Kiểm kê khí nhà kính) & ISO 14067 (Dấu chân carbon)",
-        meta: "QUACERT, Việt Nam — 2024",
+        title: "Kỹ sư cao cấp về Quản lý Khoa học và Công nghệ",
+        meta: "Học viện Khoa học, Công nghệ và Đổi mới sáng tạo — Bộ KH&CN, 2020",
       },
       {
         title: "Quản lý công cao cấp & Lý luận chính trị cao cấp",
-        meta: "Học viện Hành chính Quốc gia & Học viện Chính trị Quốc gia Hồ Chí Minh — 2022–2024",
+        meta: "Học viện Hành chính Quốc gia & Học viện Chính trị Quốc gia Hồ Chí Minh, 2022–2024",
       },
       {
-        title: "Kỹ sư cao cấp về Quản lý Khoa học và Công nghệ",
-        meta: "Viện Chiến lược Khoa học, Công nghệ và Đổi mới sáng tạo — Bộ KH&CN — 2020",
+        title: "ISO 14064 (Kiểm kê khí nhà kính) & ISO 14067 (Dấu chân carbon)",
+        meta: "QUACERT, Việt Nam, 2024",
       },
       {
-        title: "Chứng chỉ Tài chính Công nghệ",
-        meta: "Korea Technology Finance Corporation (KIBO), Hàn Quốc — 2017",
-      },
-      {
-        title: "Chương trình đào tạo Khởi nghiệp & Đổi mới sáng tạo",
-        meta: "Malaysian Global Innovation & Creativity Centre (MaGIC), Malaysia — 2016",
+        title: "Chứng chỉ cao cấp về Tài chính Công nghệ",
+        meta: "Korea Technology Finance Corporation (KIBO), Hàn Quốc, 2017",
       },
       {
         title: "Leaders in Innovation Fellowships (LIF)",
-        meta: "Royal Academy of Engineering, Vương quốc Anh — 2015",
+        meta: "Royal Academy of Engineering, Vương quốc Anh, 2015",
       },
       {
-        title: "Graduate Founder (Zinmed – Y tế số)",
-        meta: "Topica Founder Institute, Hoa Kỳ/Việt Nam — 2014",
+        title: "Chương trình Đổi mới sáng tạo & Khởi nghiệp",
+        meta: "Malaysian Global Innovation & Creativity Centre (MaGIC), Malaysia, 2016",
       },
+      {
+        title: "Graduate Founder — Zinmed (Y tế số)",
+        meta: "Topica Founder Institute, Hoa Kỳ/Việt Nam, 2014",
+      },
+    ],
+    honorsTitle: "Vị trí & vai trò nổi bật",
+    honors: [
+      "Điều phối viên — Mạng lưới Thương mại hoá Kết quả Nghiên cứu LIF Vietnam, với sự hỗ trợ của Royal Academy of Engineering (Vương quốc Anh) và Newton Fund",
+      "Điều phối Chương trình Chia sẻ Tri thức (KSP) Việt Nam – Hàn Quốc, phối hợp cùng Bộ Kinh tế & Tài chính Hàn Quốc và KIBO",
+      "Thành viên Ban Cố vấn & Giám khảo — Hack4Growth (AVSE Global) và Techfest Quốc gia",
+      "Ủy viên Ban Chấp hành — Hội hữu nghị Việt Nam – Canada (CVFA)",
+      "Quản trị viên — Cộng đồng Kỹ thuật Y sinh Việt Nam",
     ],
     languagesTitle: "Ngôn ngữ",
     languages: [
@@ -397,10 +414,15 @@ const vi: Site = {
     formError: "Có lỗi xảy ra, vui lòng thử lại hoặc liên hệ trực tiếp qua email.",
     detailsTitle: "Thông tin liên hệ",
     socialTitle: "Mạng xã hội",
+    emailLabel: "Email",
+    emailPersonal: "hoangcd@gmail.com",
+    emailWork: "hoangcd@natif.gov.vn",
   },
   footer: {
     rights: "Bảo lưu mọi quyền.",
     builtWith: "",
+    connectTitle: "Kết nối",
+    navTitle: "Chuyên mục",
   },
 };
 

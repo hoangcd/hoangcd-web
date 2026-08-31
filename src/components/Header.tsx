@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import type { Locale, Site } from "@/content/types";
 import LocaleSwitcher from "./LocaleSwitcher";
@@ -30,13 +31,22 @@ export default function Header({
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
+    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/85 backdrop-blur-md">
+      <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link
           href={`/${locale}`}
-          className="text-lg font-semibold tracking-tight text-slate-900"
+          className="flex items-center gap-2.5 text-[15px] font-semibold tracking-tight text-slate-900"
         >
-          {dict.hero.name}
+          <span className="relative h-8 w-8 overflow-hidden rounded-full ring-2 ring-slate-100">
+            <Image
+              src="/images/profile.png"
+              alt=""
+              fill
+              sizes="32px"
+              className="object-cover"
+            />
+          </span>
+          {dict.profile.name}
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
@@ -44,13 +54,16 @@ export default function Header({
             <Link
               key={link.href}
               href={link.href}
-              className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+              className={`relative rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                 isActive(link.href)
                   ? "text-emerald-700"
                   : "text-slate-600 hover:text-slate-900"
               }`}
             >
               {link.label}
+              {isActive(link.href) && (
+                <span className="absolute inset-x-3 -bottom-[13px] h-0.5 rounded-full bg-emerald-700" />
+              )}
             </Link>
           ))}
         </nav>
@@ -75,16 +88,24 @@ export default function Header({
             strokeWidth={1.8}
           >
             {open ? (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
             ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             )}
           </svg>
         </button>
       </div>
 
       {open && (
-        <div className="border-t border-slate-200 px-4 pb-4 md:hidden">
+        <div className="border-t border-slate-200 bg-white px-4 pb-4 md:hidden">
           <nav className="flex flex-col gap-1 pt-2">
             {links.map((link) => (
               <Link
