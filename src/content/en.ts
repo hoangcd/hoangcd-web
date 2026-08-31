@@ -58,7 +58,7 @@ const en: Site = {
     expertiseTitle: "Areas of Expertise",
     expertise: [
       {
-        title: "STI Management & Policy Formulation",
+        title: "Science, Technology & Innovation Management and Policy",
         description:
           "Designing and refining technology-innovation policy, developing the Triple-Helix ecosystem (Government – Academia – Industry), and managing national-scale funds and research grant programmes.",
       },
@@ -279,7 +279,7 @@ const en: Site = {
   management: {
     title: "Management",
     intro:
-      "An overview of managing science, technology, and innovation (STI) projects, programs, and tasks. The framework below will be updated with specific projects and figures.",
+      "An overview of managing science, technology and innovation projects, programmes and tasks. The framework below will be updated with specific projects and figures.",
     placeholderNote:
       "This page is currently a first-draft framework, based on Dr. Chu Duc Hoang's publicly known career record. Detailed information on individual projects and tasks (name, role, timing) will be provided and updated by him.",
     items: [
@@ -291,7 +291,7 @@ const en: Site = {
         bullets: [
           "Directs administrative operations and manages a portfolio of more than 80 national science-and-technology projects with total registered capital of roughly USD 86.7 million.",
           "Drafts and appraises national legal frameworks, contributing to the 2025 Law on Science, Technology and Innovation, including blended-finance mechanisms (loans, grants, interest-rate support) for small and medium enterprises.",
-          "Coordinates the Knowledge Sharing Program (KSP) between Vietnam and South Korea (Korea's Ministry of Economy and Finance & KIBO), aligning national STI policy with international ODA standards.",
+          "Coordinates the Knowledge Sharing Program (KSP) between Vietnam and South Korea (Korea's Ministry of Economy and Finance & KIBO), aligning national science-and-technology policy with international ODA standards.",
         ],
       },
       {
