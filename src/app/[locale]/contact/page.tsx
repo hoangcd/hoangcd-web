@@ -7,11 +7,15 @@ import Card from "@/components/Card";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import FacebookIcon from "@/components/icons/FacebookIcon";
 import ScholarIcon from "@/components/icons/ScholarIcon";
+import ResearchGateIcon from "@/components/icons/ResearchGateIcon";
+import OrcidIcon from "@/components/icons/OrcidIcon";
 import {
   EMAIL_PERSONAL,
   EMAIL_WORK,
   FACEBOOK_URL,
   LINKEDIN_URL,
+  ORCID_URL,
+  RESEARCHGATE_URL,
   SCHOLAR_URL,
 } from "@/lib/links";
 
@@ -29,6 +33,8 @@ export default async function ContactPage({
     { href: LINKEDIN_URL, label: "LinkedIn", handle: "/in/chuduchoang", Icon: LinkedinIcon },
     { href: FACEBOOK_URL, label: "Facebook", handle: "/chuduchoang", Icon: FacebookIcon },
     { href: SCHOLAR_URL, label: "Google Scholar", handle: "Hoang ChuDuc", Icon: ScholarIcon },
+    { href: RESEARCHGATE_URL, label: "ResearchGate", handle: "Hoang-Chuduc", Icon: ResearchGateIcon },
+    { href: ORCID_URL, label: "ORCID", handle: "0009-0009-9919-977X", Icon: OrcidIcon },
   ];
 
   return (

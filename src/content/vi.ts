@@ -24,11 +24,11 @@ const vi: Site = {
     stats: [
       { value: "20+", label: "Năm kinh nghiệm" },
       { value: "50+", label: "Công bố khoa học" },
-      { value: "482", label: "Trích dẫn" },
-      { value: "8", label: "h-index" },
+      { value: "393", label: "Trích dẫn" },
+      { value: "7", label: "h-index" },
     ],
     statsNote:
-      "Chỉ số trích dẫn, h-index và i10-index theo hồ sơ Google Scholar, cập nhật tháng 8/2026.",
+      "Chỉ số trích dẫn, h-index và i10-index theo hồ sơ Google Scholar, cập nhật tháng 11/2026.",
     quote:
       "Kinh tế số và kinh tế xanh không chỉ là xu hướng tất yếu mà còn là con đường mở ra cơ hội cho sự phát triển bền vững của Việt Nam.",
     quoteSource: "— Phát biểu tại hội thảo BCG Tech, 2024",
@@ -52,8 +52,8 @@ const vi: Site = {
       "Từ năm 2016 đến nay, ông giữ cương vị Chánh Văn phòng Quỹ Đổi mới công nghệ quốc gia (NATIF), Bộ Khoa học và Công nghệ, đồng thời đảm nhiệm vai trò Trưởng phòng Tài trợ và Đặt hàng và Chủ tịch Công đoàn của Quỹ.",
       "Trong công tác quản lý quỹ đổi mới công nghệ quốc gia, ông tham gia điều hành hoạt động của Quỹ và góp phần hoàn thiện các cơ chế, chính sách tài chính hỗ trợ doanh nghiệp đổi mới công nghệ. Định hướng xuyên suốt là đưa nguồn lực hỗ trợ của Nhà nước đến gần hơn với doanh nghiệp — đặc biệt là doanh nghiệp nhỏ và vừa — trong quá trình nâng cao năng lực công nghệ, chuyển đổi số và phát triển bền vững.",
       "Song song với công tác quản lý, ông là giảng viên thỉnh giảng tại Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội (VNU-UET) và một số cơ sở đào tạo khác; Phó Chủ tịch Hội Trí thức Khoa học và Công nghệ Trẻ Việt Nam (VAYSE); và cố vấn quản lý cho một số viện nghiên cứu.",
-      "Trước khi công tác tại NATIF, ông từng đảm nhiệm vai trò quản lý dự án tại Quỹ Đổi mới sáng tạo Vingroup (VINIF), và giảng dạy, nghiên cứu ngành Kỹ thuật Y sinh tại Trường Điện – Điện tử, Đại học Bách Khoa Hà Nội (2004–2016). Về khởi nghiệp, ông là Đồng sáng lập & Chủ tịch Công ty CP Zinmed Việt Nam — startup công nghệ y tế số ứng dụng IoT và điện toán đám mây trong quản lý bệnh mãn tính.",
-      "Về học thuật, ông là tác giả và đồng tác giả của hơn 50 công bố khoa học, hơn 20 báo cáo hội nghị trong nước và quốc tế cùng 4 cuốn sách và tuyển tập. Theo hồ sơ Google Scholar (cập nhật tháng 8/2026), các công trình của ông đạt 482 lượt trích dẫn, chỉ số h-index 8 và i10-index 5, tập trung vào Kỹ thuật Y sinh, Chính sách đổi mới công nghệ, Trí tuệ nhân tạo và Chuyển đổi số.",
+      "Giai đoạn 2018–2022, ông đồng thời là Trưởng ban, quản lý dự án tại Quỹ Đổi mới sáng tạo Vingroup (VINIF). Trước đó, ông giảng dạy, nghiên cứu ngành Kỹ thuật Y sinh tại Trường Điện – Điện tử, Đại học Bách Khoa Hà Nội (2004–2016). Về khởi nghiệp, ông là Đồng sáng lập & Chủ tịch Công ty CP Zinmed Việt Nam — startup công nghệ y tế số ứng dụng IoT và điện toán đám mây trong quản lý bệnh mãn tính.",
+      "Về học thuật, ông là tác giả và đồng tác giả của hơn 50 công bố khoa học, hơn 20 báo cáo hội nghị trong nước và quốc tế cùng 4 cuốn sách và tuyển tập. Theo hồ sơ Google Scholar (cập nhật tháng 11/2026), các công trình của ông đạt 393 lượt trích dẫn, chỉ số h-index 7 và i10-index 5, tập trung vào Kỹ thuật Y sinh, Chính sách đổi mới công nghệ, Trí tuệ nhân tạo và Chuyển đổi số.",
     ],
     expertiseTitle: "Lĩnh vực chuyên môn",
     expertise: [
@@ -152,45 +152,44 @@ const vi: Site = {
   research: {
     title: "Nghiên cứu",
     intro:
-      "Hơn 50 bài báo khoa học, 20+ báo cáo hội thảo trong nước/quốc tế, 4 cuốn sách/tuyển tập và nhiều báo cáo chính sách, tập trung vào bốn nhóm chủ đề chính.",
+      "Hơn 50 bài báo khoa học, 20+ báo cáo hội thảo trong nước/quốc tế, 4 cuốn sách/tuyển tập và nhiều báo cáo chính sách, tập trung vào ba nhóm chủ đề chính.",
     scholarLabel: "Xem hồ sơ Google Scholar",
     scholarUrl: "https://scholar.google.com/citations?hl=vi&user=tcJwNTsAAAAJ",
     strongGroupsTitle: "Nhóm nghiên cứu mạnh theo chủ đề",
     strongGroupsIntro:
-      "Các hướng nghiên cứu được duy trì liên tục qua nhiều năm, từ chính sách đổi mới công nghệ đến kỹ thuật y sinh.",
+      "Ba hướng nghiên cứu được duy trì liên tục qua nhiều năm: kỹ thuật y sinh và AI trong y tế, công nghệ – chính sách đổi mới sáng tạo, và các lĩnh vực kỹ thuật khác.",
     selectedTitle: "Công bố chọn lọc theo chủ đề",
     groups: [
       {
-        title: "Chính sách Đổi mới, Công nghệ Xanh & Phát triển bền vững",
+        title: "Kỹ thuật y sinh & AI trong y tế",
         items: [
-          "Ngoc, T. H., ChuDuc, H., & Anh, V. Q. (2024). Green Innovation: Strategies for Commercializing Environmental Technologies and Solutions. 9th ATiGB, IEEE, tr. 151–156.",
-          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2024). Policy Instruments for Promoting Energy Efficiency and Reducing GHG Emissions in Vietnam. 9th ATiGB, IEEE, tr. 391–396.",
-          "Le, T. V., ChuDuc, H., & Tran, Q. X. (2024). Optimized Integration of Renewable Energy in Smart Buildings: A Systematic Review. 9th ATiGB, IEEE, tr. 397–402.",
-          "Hoang, C. D. (2020). Mô hình thương mại hoá công nghệ: Kinh nghiệm quốc tế và khuyến nghị cho Việt Nam. Tạp chí Kinh tế và Dự báo, Bộ KH&ĐT, số 34 (716).",
-        ],
-      },
-      {
-        title: "AI, Big Data & Chuyển đổi số",
-        items: [
-          "Huu, P. N. và cộng sự (2023). Emotion Recognition System to Suggest and Respond to Vietnamese Using PhoBert Model. 8th ATiGB, IEEE, tr. 123–128.",
+          "Chu Duc, H. (2026). Leakage-Aware Evaluation of a Hybrid 1D-CNN–Transformer for 785 nm Raman Skin-Lesion Classification on Real In-Vivo and Augmented Spectra. VNICT 2026, pp. 486–490.",
+          "Chu Duc, H. (2026). An HL7/FHIR-Standardized Collection and Four-Tier Quality-Screening Pipeline for a Multi-Source Skin-Cancer Raman Spectroscopy Database. VNICT 2026, pp. 81–85.",
+          "ChuDuc, H., & Tung, N. T. (2025). A Hybrid 1D-CNN and Transformer Architecture for Differentiating Malignant Melanoma from Non-Melanoma Skin Cancers using Raman Spectroscopy. ATC 2025, IEEE.",
+          "Tung, N. T., ChuDuc, H., & Son, N. T. (2025). Computational Optimization of Gold Nanostar Geometry for High-Sensitivity SERS Biosensing. ICHST 2025, IEEE.",
           "Huu, P. N. và cộng sự (2022). Detection and Classification Knee Osteoarthritis Algorithm using YOLOv3 and VGG-16. 7th ATiGB, IEEE, tr. 31–36.",
-          "Thuy, P. T., Thanh Tung, N., & Hoang, C. D. (2021). Predicting the Level of Hypertension Using Machine Learning. ICCASA 2020, Springer, vol. 343.",
-        ],
-      },
-      {
-        title: "Sản xuất thông minh, Robotics & Hạ tầng phần cứng",
-        items: [
-          "ChuDuc, H. và cộng sự (2021). Real Time Inverse Kinematics of Five-Axis CNC Centers. MMMS2020, Springer Nature.",
-          "Vu, M. D., My, C. A., ChuDuc, H. và cộng sự (2021). A Conceptual Digital Twin for Cost-Effective Development of a Welding Robotic System. MMMS2020.",
-          "Truong, C. D., Le, C. N., Thi, H. D. N., & Duc, H. C. (2020). Compact and low-loss 90-deg optical hybrid based on SOI 2×2 MMI couplers. Optical Engineering, 59(9), 095108.",
-        ],
-      },
-      {
-        title: "Kỹ thuật Y sinh & Y tế số",
-        items: [
-          "Cuong, N. M. và cộng sự (2022). Development of Economical and Effective UVC Irradiation Solutions for Rapid Decontamination of SARS-CoV-2 on N95 Respirators. Springer, vol. 471.",
           "ChuDuc, H., NguyenDuc, T., NguyenPhan, K., & NguyenThai, H. (2015). Intelligent Heart Rate Variability Processing System. IFMBE Proceedings, vol. 46, Springer.",
           "ChuDuc, H., NguyenPhan, K., & NguyenViet, D. (2013). A review of heart rate variability and its applications. APCBEE Procedia, 7, 80–85.",
+        ],
+      },
+      {
+        title: "Công nghệ đổi mới sáng tạo & Chính sách khoa học, công nghệ, đổi mới sáng tạo",
+        items: [
+          "Chử Đức Hoàng (2026). An ninh khoa học, công nghệ và đổi mới sáng tạo trong cạnh tranh quốc gia. Kỷ yếu Hội thảo khoa học về an ninh toàn diện, Hà Nội, tr. 242–254.",
+          "Chử Đức Hoàng (2026). Đào tạo và phát triển nguồn nhân lực cho Cách mạng công nghiệp 4.0 tại Việt Nam. Kỷ yếu Hội thảo quốc tế “Cơ hội và nỗ lực của Việt Nam và Ấn Độ trong chuyển đổi số”, NXB Dân Trí, tr. 84–89.",
+          "Anh, V. Q., ChuDuc, H., & Hai, T. V. (2025). The EU's Carbon Border Adjustment Mechanism (CBAM): Challenges and Opportunities for Eco-Industrial Parks in Vietnam. 10th ATiGB, IEEE.",
+          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2025). Vietnam's Net Zero Ambition: An Emissions Data Analysis and Policy Assessment. 10th ATiGB, IEEE.",
+          "Ngoc, T. H., ChuDuc, H., & Anh, V. Q. (2024). Green Innovation: Strategies for Commercializing Environmental Technologies and Solutions. 9th ATiGB, IEEE, tr. 151–156.",
+          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2024). Policy Instruments for Promoting Energy Efficiency and Reducing GHG Emissions in Vietnam. 9th ATiGB, IEEE, tr. 391–396.",
+        ],
+      },
+      {
+        title: "Các lĩnh vực khác: Quang tử, Robot, IoT & ứng dụng AI",
+        items: [
+          "Duy, H. T. và cộng sự (2021). Numerical design and optimization of a high compact, broadband optical three-mode selective converter. Optical Engineering, 60(11), 115104.",
+          "Truong, C. D., Le, C. N., Thi, H. D. N., & Duc, H. C. (2020). Compact and low-loss 90-deg optical hybrid based on SOI 2×2 MMI couplers. Optical Engineering, 59(9), 095108.",
+          "My, C. A., ChuDuc, H. và cộng sự (2020). Real Time Inverse Kinematics of Five-Axis CNC Centers. MMMS2020, Springer Nature.",
+          "Huu, P. N. và cộng sự (2023). Emotion Recognition System to Suggest and Respond to Vietnamese Using PhoBert Model. 8th ATiGB, IEEE, tr. 123–128.",
         ],
       },
     ],
@@ -235,6 +234,10 @@ const vi: Site = {
       {
         title: "IV. Báo cáo hội nghị quốc gia/quốc tế",
         items: [
+          "Chu Duc, H. (2026). Leakage-Aware Evaluation of a Hybrid 1D-CNN–Transformer for 785 nm Raman Skin-Lesion Classification on Real In-Vivo and Augmented Spectra. VNICT 2026, pp. 486–490.",
+          "Chu Duc, H. (2026). An HL7/FHIR-Standardized Collection and Four-Tier Quality-Screening Pipeline for a Multi-Source Skin-Cancer Raman Spectroscopy Database. VNICT 2026, pp. 81–85.",
+          "Chử Đức Hoàng (2026). Đào tạo và phát triển nguồn nhân lực cho Cách mạng công nghiệp 4.0 tại Việt Nam. HTQT Việt Nam – Ấn Độ trong chuyển đổi số, NXB Dân Trí, tr. 84–89.",
+          "Chử Đức Hoàng (2026). An ninh khoa học, công nghệ và đổi mới sáng tạo trong cạnh tranh quốc gia. Kỷ yếu Hội thảo khoa học về an ninh toàn diện, tr. 242–254.",
           "Chử Đức Hoàng, Lương Hoàng Anh, Nguyễn Thanh Tùng. Phát triển mô hình phân loại ung thư da dựa trên phổ Raman mô phỏng.",
           "Hoang Chu Duc, Toan-Vu Le, Tran Hau Ngoc. Vietnam's Renewable Energy Transition: Policy Frameworks.",
           "Hoang ChuDuc, Tran Hau Ngoc, Nguyen Viet Hung. Circular Economy Policies in Vietnam: Assessing Implementation.",

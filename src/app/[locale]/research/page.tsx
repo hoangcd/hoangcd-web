@@ -52,7 +52,7 @@ export default async function ResearchPage({
             icon={<FlaskConical className="h-5 w-5" />}
           >
             <p className="text-sm text-slate-600">{dict.strongGroupsIntro}</p>
-            <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            <div className="mt-5 grid gap-4 sm:grid-cols-3">
               {dict.groups.map((group, i) => (
                 <div
                   key={group.title}

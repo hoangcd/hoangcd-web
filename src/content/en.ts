@@ -24,11 +24,11 @@ const en: Site = {
     stats: [
       { value: "20+", label: "Years of experience" },
       { value: "50+", label: "Publications" },
-      { value: "482", label: "Citations" },
-      { value: "8", label: "h-index" },
+      { value: "393", label: "Citations" },
+      { value: "7", label: "h-index" },
     ],
     statsNote:
-      "Citation count, h-index and i10-index per the Google Scholar profile, updated August 2026.",
+      "Citation count, h-index and i10-index per the Google Scholar profile, updated November 2026.",
     quote:
       "The digital economy and the green economy are not just inevitable trends — they are the path that opens the door to sustainable development for Vietnam.",
     quoteSource: "— Remarks at the BCG Tech conference, 2024",
@@ -52,8 +52,8 @@ const en: Site = {
       "Since 2016 he has served as Chief of Office of the National Technology Innovation Fund (NATIF) at the Ministry of Science and Technology, while also serving as Head of the Fund's Funding & Commissioning Department and Chairman of its Labor Union.",
       "In managing the national technology innovation fund, he helps direct the Fund's operations and contributes to refining the financial mechanisms and policies that support enterprise technology innovation. The through-line of that work is bringing state support closer to enterprises — particularly small and medium ones — as they build technological capability, adopt digital tools, and grow sustainably.",
       "Alongside his management role, he is a visiting lecturer at VNU University of Engineering and Technology (VNU-UET) and other training institutions; Vice Chairman of the Vietnam Association of Young Scientists and Engineers (VAYSE); and a management advisor to several research institutes.",
-      "Before joining NATIF, he served as a project manager at the Vingroup Innovation Foundation (VINIF), and taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, HUST (2004–2016). As an entrepreneur, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease management.",
-      "Academically, he has authored and co-authored more than 50 scientific publications, over 20 domestic and international conference papers, and 4 books and edited volumes. Per his Google Scholar profile (updated August 2026), his work has been cited 482 times, with an h-index of 8 and an i10-index of 5, concentrated in Biomedical Engineering, technology-innovation policy, Artificial Intelligence and Digital Transformation.",
+      "From 2018 to 2022 he also served as Department Head and Project Manager at the Vingroup Innovation Foundation (VINIF). Earlier, he taught and conducted research in Biomedical Engineering at the School of Electrical and Electronic Engineering, HUST (2004–2016). As an entrepreneur, he is Co-founder and Chairman of Zinmed Vietnam JSC — a digital-health startup applying IoT and cloud computing to chronic-disease management.",
+      "Academically, he has authored and co-authored more than 50 scientific publications, over 20 domestic and international conference papers, and 4 books and edited volumes. Per his Google Scholar profile (updated November 2026), his work has been cited 393 times, with an h-index of 7 and an i10-index of 5, concentrated in Biomedical Engineering, technology-innovation policy, Artificial Intelligence and Digital Transformation.",
     ],
     expertiseTitle: "Areas of Expertise",
     expertise: [
@@ -152,45 +152,44 @@ const en: Site = {
   research: {
     title: "Research",
     intro:
-      "More than 50 scientific papers, 20+ domestic/international conference presentations, 4 books/edited volumes, and numerous policy reports, organized into four main thematic groups.",
+      "More than 50 scientific papers, 20+ domestic/international conference presentations, 4 books/edited volumes, and numerous policy reports, organized into three main thematic groups.",
     scholarLabel: "View Google Scholar Profile",
     scholarUrl: "https://scholar.google.com/citations?hl=vi&user=tcJwNTsAAAAJ",
     strongGroupsTitle: "Strong Research Groups by Theme",
     strongGroupsIntro:
-      "Research directions sustained continuously over many years, from technology-innovation policy to biomedical engineering.",
+      "Three research directions sustained over many years: biomedical engineering and AI in healthcare, innovation technology and policy, and other engineering work.",
     selectedTitle: "Selected Publications by Theme",
     groups: [
       {
-        title: "Innovation Policy, Green Technology & Sustainable Development",
+        title: "Biomedical Engineering & AI in Healthcare",
         items: [
-          "Ngoc, T. H., ChuDuc, H., & Anh, V. Q. (2024). Green Innovation: Strategies for Commercializing Environmental Technologies and Solutions. 9th ATiGB, IEEE, pp. 151–156.",
-          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2024). Policy Instruments for Promoting Energy Efficiency and Reducing GHG Emissions in Vietnam. 9th ATiGB, IEEE, pp. 391–396.",
-          "Le, T. V., ChuDuc, H., & Tran, Q. X. (2024). Optimized Integration of Renewable Energy in Smart Buildings: A Systematic Review. 9th ATiGB, IEEE, pp. 397–402.",
-          "Hoang, C. D. (2020). Technology commercialization models: international experience and recommendations for Vietnam. Journal of Economics and Forecasting, Ministry of Planning and Investment, issue 34 (716).",
-        ],
-      },
-      {
-        title: "AI, Big Data & Digital Transformation",
-        items: [
-          "Huu, P. N. et al. (2023). Emotion Recognition System to Suggest and Respond to Vietnamese Using PhoBert Model. 8th ATiGB, IEEE, pp. 123–128.",
+          "Chu Duc, H. (2026). Leakage-Aware Evaluation of a Hybrid 1D-CNN–Transformer for 785 nm Raman Skin-Lesion Classification on Real In-Vivo and Augmented Spectra. VNICT 2026, pp. 486–490.",
+          "Chu Duc, H. (2026). An HL7/FHIR-Standardized Collection and Four-Tier Quality-Screening Pipeline for a Multi-Source Skin-Cancer Raman Spectroscopy Database. VNICT 2026, pp. 81–85.",
+          "ChuDuc, H., & Tung, N. T. (2025). A Hybrid 1D-CNN and Transformer Architecture for Differentiating Malignant Melanoma from Non-Melanoma Skin Cancers using Raman Spectroscopy. ATC 2025, IEEE.",
+          "Tung, N. T., ChuDuc, H., & Son, N. T. (2025). Computational Optimization of Gold Nanostar Geometry for High-Sensitivity SERS Biosensing. ICHST 2025, IEEE.",
           "Huu, P. N. et al. (2022). Detection and Classification Knee Osteoarthritis Algorithm using YOLOv3 and VGG-16. 7th ATiGB, IEEE, pp. 31–36.",
-          "Thuy, P. T., Thanh Tung, N., & Hoang, C. D. (2021). Predicting the Level of Hypertension Using Machine Learning. ICCASA 2020, Springer, vol. 343.",
-        ],
-      },
-      {
-        title: "Smart Manufacturing, Robotics & Hardware Infrastructure",
-        items: [
-          "ChuDuc, H. et al. (2021). Real Time Inverse Kinematics of Five-Axis CNC Centers. MMMS2020, Springer Nature.",
-          "Vu, M. D., My, C. A., ChuDuc, H. et al. (2021). A Conceptual Digital Twin for Cost-Effective Development of a Welding Robotic System. MMMS2020.",
-          "Truong, C. D., Le, C. N., Thi, H. D. N., & Duc, H. C. (2020). Compact and low-loss 90-deg optical hybrid based on SOI 2×2 MMI couplers. Optical Engineering, 59(9), 095108.",
-        ],
-      },
-      {
-        title: "Biomedical Engineering & Digital Health",
-        items: [
-          "Cuong, N. M. et al. (2022). Development of Economical and Effective UVC Irradiation Solutions for Rapid Decontamination of SARS-CoV-2 on N95 Respirators. Springer, vol. 471.",
           "ChuDuc, H., NguyenDuc, T., NguyenPhan, K., & NguyenThai, H. (2015). Intelligent Heart Rate Variability Processing System. IFMBE Proceedings, vol. 46, Springer.",
           "ChuDuc, H., NguyenPhan, K., & NguyenViet, D. (2013). A review of heart rate variability and its applications. APCBEE Procedia, 7, 80–85.",
+        ],
+      },
+      {
+        title: "Innovation Technology & Science-Technology-Innovation Policy",
+        items: [
+          "Chu Duc Hoang (2026). Science, technology and innovation security in national competition. Proceedings of the national conference on comprehensive security, Hanoi, pp. 242–254.",
+          "Chu Duc Hoang (2026). Training and developing human resources for Industry 4.0 in Vietnam. Proceedings of the International Conference “Opportunities and Efforts of Vietnam and India in Digital Transformation”, Dan Tri Publishing House, pp. 84–89.",
+          "Anh, V. Q., ChuDuc, H., & Hai, T. V. (2025). The EU's Carbon Border Adjustment Mechanism (CBAM): Challenges and Opportunities for Eco-Industrial Parks in Vietnam. 10th ATiGB, IEEE.",
+          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2025). Vietnam's Net Zero Ambition: An Emissions Data Analysis and Policy Assessment. 10th ATiGB, IEEE.",
+          "Ngoc, T. H., ChuDuc, H., & Anh, V. Q. (2024). Green Innovation: Strategies for Commercializing Environmental Technologies and Solutions. 9th ATiGB, IEEE, pp. 151–156.",
+          "Ngoc, T. H., ChuDuc, H., & Tran, H. V. (2024). Policy Instruments for Promoting Energy Efficiency and Reducing GHG Emissions in Vietnam. 9th ATiGB, IEEE, pp. 391–396.",
+        ],
+      },
+      {
+        title: "Other Engineering: Photonics, Robotics, IoT & AI Applications",
+        items: [
+          "Duy, H. T. et al. (2021). Numerical design and optimization of a high compact, broadband optical three-mode selective converter. Optical Engineering, 60(11), 115104.",
+          "Truong, C. D., Le, C. N., Thi, H. D. N., & Duc, H. C. (2020). Compact and low-loss 90-deg optical hybrid based on SOI 2×2 MMI couplers. Optical Engineering, 59(9), 095108.",
+          "My, C. A., ChuDuc, H. et al. (2020). Real Time Inverse Kinematics of Five-Axis CNC Centers. MMMS2020, Springer Nature.",
+          "Huu, P. N. et al. (2023). Emotion Recognition System to Suggest and Respond to Vietnamese Using PhoBert Model. 8th ATiGB, IEEE, pp. 123–128.",
         ],
       },
     ],
@@ -235,6 +234,10 @@ const en: Site = {
       {
         title: "IV. National/International Conference Proceedings",
         items: [
+          "Chu Duc, H. (2026). Leakage-Aware Evaluation of a Hybrid 1D-CNN–Transformer for 785 nm Raman Skin-Lesion Classification on Real In-Vivo and Augmented Spectra. VNICT 2026, pp. 486–490.",
+          "Chu Duc, H. (2026). An HL7/FHIR-Standardized Collection and Four-Tier Quality-Screening Pipeline for a Multi-Source Skin-Cancer Raman Spectroscopy Database. VNICT 2026, pp. 81–85.",
+          "Chu Duc Hoang (2026). Training and developing human resources for Industry 4.0 in Vietnam. Int. Conf. Vietnam–India Digital Transformation, Dan Tri Publishing House, pp. 84–89.",
+          "Chu Duc Hoang (2026). Science, technology and innovation security in national competition. Proceedings of the national conference on comprehensive security, pp. 242–254.",
           "Chu Duc Hoang, Luong Hoang Anh, Nguyen Thanh Tung. Developing a skin-cancer classification model based on simulated Raman spectra.",
           "Hoang Chu Duc, Toan-Vu Le, Tran Hau Ngoc. Vietnam's Renewable Energy Transition: Policy Frameworks.",
           "Hoang ChuDuc, Tran Hau Ngoc, Nguyen Viet Hung. Circular Economy Policies in Vietnam: Assessing Implementation.",

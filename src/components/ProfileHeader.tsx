@@ -5,10 +5,14 @@ import type { Locale, Site } from "@/content/types";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import ScholarIcon from "./icons/ScholarIcon";
+import ResearchGateIcon from "./icons/ResearchGateIcon";
+import OrcidIcon from "./icons/OrcidIcon";
 import {
   EMAIL_PERSONAL,
   FACEBOOK_URL,
   LINKEDIN_URL,
+  ORCID_URL,
+  RESEARCHGATE_URL,
   SCHOLAR_URL,
 } from "@/lib/links";
 
@@ -25,6 +29,8 @@ export default function ProfileHeader({
     { href: LINKEDIN_URL, label: "LinkedIn", Icon: LinkedinIcon },
     { href: FACEBOOK_URL, label: "Facebook", Icon: FacebookIcon },
     { href: SCHOLAR_URL, label: "Google Scholar", Icon: ScholarIcon },
+    { href: RESEARCHGATE_URL, label: "ResearchGate", Icon: ResearchGateIcon },
+    { href: ORCID_URL, label: "ORCID", Icon: OrcidIcon },
   ];
 
   return (
