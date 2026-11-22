@@ -87,7 +87,7 @@ export const newsUi: L<{
     photo: "Ảnh",
     share: "Chia sẻ",
     pressTitle: "Báo chí viết về TS. Chử Đức Hoàng",
-    pressIntro: "Bài báo, phỏng vấn và đưa tin trên báo chí, cổng thông tin chính thức (2020 – nay), đã được kiểm tra có nêu tên TS. Chử Đức Hoàng. Bấm để đọc bài gốc.",
+    pressIntro: "Bài báo, phỏng vấn và đưa tin trên báo chí, cổng thông tin chính thức (2014 – nay), đã được kiểm tra có nêu tên TS. Chử Đức Hoàng. Bấm để đọc bài gốc.",
     readMore: "Đọc tiếp",
     keyPoints: "Điểm nhấn",
     interview: "Phỏng vấn",
@@ -102,7 +102,7 @@ export const newsUi: L<{
     photo: "Photo",
     share: "Share",
     pressTitle: "Press coverage of Dr. Chu Duc Hoang",
-    pressIntro: "Articles, interviews and coverage in the press and on official portals (2020 – present), each checked to name Dr. Chu Duc Hoang. Click to read the original (in Vietnamese).",
+    pressIntro: "Articles, interviews and coverage in the press and on official portals (2014 – present), each checked to name Dr. Chu Duc Hoang. Click to read the original (in Vietnamese).",
     readMore: "Read more",
     keyPoints: "Key points",
     interview: "Interview",
@@ -2458,6 +2458,225 @@ export const news: NewsItem[] = [
         "title": "Robot dịch vụ y tế: Thị trường tiềm năng sắp tới ở Việt Nam?",
         "url": "https://tiasang.com.vn/robot-dich-vu-y-te-thi-truong-tiem-nang-sap-toi-o-viet-nam-5027199.html",
         "date": "18/12/2020"
+      }
+    ]
+  },
+  {
+    "slug": "2015-10-08-zinmed-may-do-duong-huyet-khong-xam-lan",
+    "date": "2015-10-08",
+    "category": "science",
+    "role": {
+      "vi": "Nhà sáng lập, CEO Zinmed",
+      "en": "Founder & CEO, Zinmed"
+    },
+    "title": {
+      "vi": "Zinmed nghiên cứu máy đo đường huyết không xâm lấn do nhóm nhà khoa học Việt Nam phát triển",
+      "en": "Zinmed develops a non-invasive glucose meter built by a team of Vietnamese researchers"
+    },
+    "excerpt": {
+      "vi": "Trao đổi về dự án máy đo đường huyết không cần chích máu, TS. Chử Đức Hoàng – nhà sáng lập Zinmed – chia sẻ nguyên lý đo bằng cảm biến quang hồng ngoại, những thách thức về độ chính xác và con đường thương mại hóa một sản phẩm y sinh.",
+      "en": "Speaking about a needle-free glucose meter, Dr. Chu Duc Hoang, founder of Zinmed, explained its infrared optical sensing principle, the accuracy challenges and the road to commercializing a biomedical product."
+    },
+    "keyPoints": {
+      "vi": [
+        "Thiết bị đo gián tiếp bằng cảm biến điện dung và các cặp cảm biến quang hồng ngoại (bước sóng 1495–2105 nm), không cần que thử.",
+        "Độ chính xác công bố thời điểm đó đạt 70–80%; nhóm nghiên cứu xác định còn nhiều việc phải làm để cải thiện.",
+        "Dữ liệu đồng bộ với điện thoại qua Bluetooth, lưu lịch sử đo và đưa ra khuyến nghị cho người bệnh.",
+        "Zinmed đạt giải Nhì Startup Wheel 2015 và nhận tài trợ 30.000 euro từ Chương trình Đối tác Đổi mới sáng tạo (IPP)."
+      ],
+      "en": [
+        "The device measures indirectly using a capacitive sensor and infrared optical sensor pairs (1,495–2,105 nm), with no test strips.",
+        "Reported accuracy at the time was 70–80%; the team acknowledged much work remained to improve it.",
+        "Readings sync to a smartphone via Bluetooth, keeping a measurement history and giving patients advice.",
+        "Zinmed won second prize at Startup Wheel 2015 and received a €30,000 grant from the Innovation Partnership Programme (IPP)."
+      ]
+    },
+    "body": {
+      "vi": [
+        "Ngày 8/10/2015, trang AloBacsi đăng lại bài viết của báo Trí Thức Trẻ giới thiệu dự án máy đo đường huyết không xâm lấn thuộc giải pháp quản lý điều trị bệnh tiểu đường Zinmed. Dự án do một nhóm khởi nghiệp gồm các nhà nghiên cứu khoa học khởi xướng; công ty được thành lập từ tháng 9/2014.",
+        "Trao đổi với phóng viên, TS. Chử Đức Hoàng, Tiến sĩ ngành Kỹ thuật Y sinh, nhà sáng lập kiêm Giám đốc điều hành Zinmed, giải thích: thay vì chích máu và dùng que thử dựa trên phản ứng hóa học như các máy đo phổ biến, thiết bị của Zinmed đo gián tiếp bằng cảm biến điện dung và các cặp cảm biến quang với nhiều bước sóng hồng ngoại, từ đó xác định tương quan giữa chỉ số đường huyết và tín hiệu cảm biến. Cách tiếp cận này hướng tới giảm đau cho người bệnh và tiết kiệm chi phí que thử, vốn có thể lên tới 20.000–30.000 đồng mỗi ngày với người phải đo ba lần.",
+        "Ông cũng thẳng thắn chia sẻ những giới hạn: độ chính xác công bố thời điểm đó mới đạt 70–80%, nhóm nghiên cứu đã nhiều lần phải làm lại thiết kế, và bài toán thương mại hóa – từ vốn cho nghiên cứu phát triển, vận hành tới đưa sản phẩm đến người dùng – còn rất dài. Thiết bị được thiết kế để đồng bộ dữ liệu với điện thoại qua Bluetooth, lưu lịch sử đo và đưa ra lời khuyên cho bệnh nhân.",
+        "Theo bài báo, Zinmed khi đó đã giành giải Nhì cuộc thi Startup Wheel 2015 (do Trung tâm Hỗ trợ Thanh niên Khởi nghiệp và Hội Doanh nhân trẻ TP.HCM tổ chức), nhận gói tài trợ 30.000 euro từ IPP cùng sự hỗ trợ từ một số tổ chức và doanh nghiệp công nghệ.",
+        "Nhìn lại, câu chuyện Zinmed năm 2015 phản ánh rõ con đường của một nhà khoa học khởi nghiệp: đưa kết quả nghiên cứu kỹ thuật y sinh ra thị trường, chấp nhận thử – sai và minh bạch về giới hạn của công nghệ. Đây cũng là nền tảng thực tiễn cho góc nhìn của TS. Chử Đức Hoàng về thương mại hóa kết quả nghiên cứu và hỗ trợ doanh nghiệp đổi mới công nghệ trong các năm sau."
+      ],
+      "en": [
+        "On 8 October 2015, AloBacsi republished a Trí Thức Trẻ article on a non-invasive glucose meter, part of Zinmed's diabetes-management solution. The project was started by a startup team of researchers; the company was founded in September 2014.",
+        "Dr. Chu Duc Hoang, a PhD in Biomedical Engineering and Zinmed's founder and CEO, explained that instead of pricking the finger and using chemical test strips like common meters, Zinmed's device measures indirectly with a capacitive sensor and infrared optical sensor pairs, correlating blood-glucose levels with the sensor signals. The aim is to spare patients pain and the cost of strips, which can reach VND 20,000–30,000 a day for someone testing three times daily.",
+        "He was candid about the limits: reported accuracy was then only 70–80%, the team had redesigned the device several times, and commercialization — funding R&D, operations and reaching users — still had a long way to go. The device was designed to sync with a smartphone via Bluetooth, keep a history of readings and give patients advice.",
+        "According to the article, Zinmed had won second prize at Startup Wheel 2015 (organized by the Business Startup Support Centre and the Ho Chi Minh City Young Business Association) and received a €30,000 grant from IPP, along with support from several technology organizations and companies.",
+        "In hindsight, Zinmed's 2015 story shows the path of a scientist-entrepreneur: taking biomedical research to market, accepting trial and error, and being open about a technology's limits. That hands-on experience later informed Dr. Hoang's perspective on commercializing research and supporting enterprise technology innovation."
+      ]
+    },
+    "sources": [
+      {
+        "outlet": "AloBacsi (theo Trí Thức Trẻ)",
+        "title": "Sắp có máy đo tiểu đường không cần chích máu made in Vietnam?",
+        "url": "https://alobacsi.com/sap-co-may-do-tieu-duong-khong-can-chich-mau-made-in-vietnam.html",
+        "date": "08/10/2015"
+      }
+    ]
+  },
+  {
+    "slug": "2015-05-28-jfdi-discover-zinmed-diabetes",
+    "date": "2015-05-28",
+    "category": "innovation",
+    "role": {
+      "vi": "Đồng sáng lập Zinmed",
+      "en": "Co-founder, Zinmed"
+    },
+    "title": {
+      "vi": "Zinmed Diabetes tham gia chương trình JFDI Discover tại Singapore, rèn phương pháp khởi nghiệp tinh gọn",
+      "en": "Zinmed Diabetes joins Singapore's JFDI Discover programme to practise lean-startup methods"
+    },
+    "excerpt": {
+      "vi": "Vườn ươm JFDI.Asia (Singapore) giới thiệu Zinmed Diabetes – giải pháp quản lý điều trị tiểu đường do TS. Chử Đức Hoàng và hai cộng sự sáng lập – sau khi nhóm tham gia chương trình JFDI Discover tháng 3/2015.",
+      "en": "Singapore accelerator JFDI.Asia featured Zinmed Diabetes, a diabetes-management solution co-founded by Dr. Chu Duc Hoang, after the team joined the JFDI Discover programme in March 2015."
+    },
+    "keyPoints": {
+      "vi": [
+        "Zinmed Diabetes cung cấp máy đo, que thử và công cụ theo dõi, nhắc lịch điều trị tự động trên điện thoại và thiết bị đeo.",
+        "Ba nhà sáng lập đều tốt nghiệp Đại học Bách khoa Hà Nội, có kinh nghiệm giảng dạy, nghiên cứu, y tế và ươm tạo.",
+        "Nhóm đã khảo sát hàng trăm bệnh nhân và hàng chục bác sĩ tại Việt Nam, Mỹ, Anh, Singapore để hiểu nhu cầu thực.",
+        "Bài học rút ra: thực hành liên tục, dùng Lean Canvas, tham vấn chuyên gia và phân tích thị trường."
+      ],
+      "en": [
+        "Zinmed Diabetes provides glucometers, test strips and automatic tracking and treatment reminders on smartphones and wearables.",
+        "Its three founders are all Hanoi University of Science and Technology graduates with backgrounds in teaching, research, healthcare and incubation.",
+        "The team studied hundreds of patients and dozens of doctors in Vietnam, the US, the UK and Singapore.",
+        "Lessons learned: practise relentlessly, use the Lean Canvas, consult experts and analyse the market."
+      ]
+    },
+    "body": {
+      "vi": [
+        "Ngày 28/5/2015, blog của vườn ươm khởi nghiệp JFDI.Asia (Singapore) đăng bài giới thiệu Zinmed Diabetes – startup Việt Nam hỗ trợ người bệnh tiểu đường quản lý quá trình điều trị – sau khi nhóm tham gia chương trình JFDI Discover vào tháng 3/2015.",
+        "Theo bài viết, Zinmed Diabetes cung cấp máy đo đường huyết, que thử cùng các công cụ theo dõi sức khỏe và nhắc lịch điều trị tự động gửi tới điện thoại thông minh và thiết bị đeo. Ba nhà sáng lập – TS. Chử Đức Hoàng, Lê Vũ Toàn và Nguyễn Sĩ Dũng – đều tốt nghiệp Đại học Bách khoa Hà Nội, có kinh nghiệm trong giảng dạy, nghiên cứu, y tế và ươm tạo khởi nghiệp. Nhóm đã khảo sát hàng trăm bệnh nhân và hàng chục bác sĩ tại Việt Nam, Hoa Kỳ, Anh và Singapore để xác định nhu cầu thực của người bệnh, từ chi phí theo dõi đường huyết tới việc quên uống thuốc hay khó tìm cơ sở khám phù hợp.",
+        "Chia sẻ về chương trình, nhóm cho biết sau khi hoàn thành khóa Topica Founder Institute tại Hà Nội, JFDI Discover giúp họ hoàn thiện mô hình kinh doanh, kết nối với cộng đồng khởi nghiệp và nhà đầu tư quốc tế, cũng như với cơ sở y tế, bác sĩ và bệnh nhân. Bài học được nhấn mạnh là \"thực hành, thực hành và thực hành\": công cụ Lean Canvas giúp nhóm đi đúng hướng, bên cạnh việc tham vấn ý kiến chuyên gia và phân tích thị trường.",
+        "Trải nghiệm tại JFDI là một mốc trong hành trình của TS. Chử Đức Hoàng từ nghiên cứu kỹ thuật y sinh tới khởi nghiệp sáng tạo – kinh nghiệm thực tiễn về phương pháp khởi nghiệp tinh gọn mà ông tiếp tục chia sẻ với cộng đồng khởi nghiệp Việt Nam trong các năm sau."
+      ],
+      "en": [
+        "On 28 May 2015, the blog of Singapore accelerator JFDI.Asia featured Zinmed Diabetes, a Vietnamese startup that helps people with diabetes manage their treatment, after the team took part in the JFDI Discover programme in March 2015.",
+        "According to the article, Zinmed Diabetes provides glucometers and test strips along with automatic health-tracking tools and treatment reminders sent to smartphones and wearables. Its three founders — Dr. Chu Duc Hoang, Le Vu Toan and Nguyen Si Dung — all graduated from Hanoi University of Science and Technology and have experience in teaching, research, healthcare and incubation. The team studied hundreds of patients and dozens of doctors in Vietnam, the US, the UK and Singapore to pin down real needs, from the cost of glucose monitoring to missed medication and finding suitable clinics.",
+        "The team said that, after completing the Topica Founder Institute programme in Hanoi, JFDI Discover helped them refine their business model and connect with global entrepreneurs, investors, medical facilities, doctors and patients. Their key lesson was \"practice, practice and practice\": the Lean Canvas kept them on track, alongside expert advice and market analysis.",
+        "The JFDI experience marked a step in Dr. Chu Duc Hoang's journey from biomedical engineering research to innovative entrepreneurship — practical lean-startup know-how he went on to share with Vietnam's startup community in later years."
+      ]
+    },
+    "sources": [
+      {
+        "outlet": "JFDI.Asia",
+        "title": "Practice, Practice, Practice – the only way to learn how to apply lean startup methods",
+        "url": "https://www.jfdi.asia/blog/zinmed-discover-feature/",
+        "date": "28/05/2015"
+      }
+    ]
+  },
+  {
+    "slug": "2015-03-02-ictnews-zinmed-startup-y-te",
+    "date": "2015-03-02",
+    "category": "innovation",
+    "role": {
+      "vi": "Nhà sáng lập Zinmed",
+      "en": "Founder, Zinmed"
+    },
+    "title": {
+      "vi": "ICTNews điểm danh Zinmed trong 6 startup đáng chú ý lĩnh vực y tế, chăm sóc sức khỏe",
+      "en": "ICTNews lists Zinmed among six notable healthcare startups"
+    },
+    "excerpt": {
+      "vi": "Zinmed – ứng dụng di động cho cộng đồng người bệnh tiểu đường do TS. Chử Đức Hoàng sáng lập – được ICTNews giới thiệu trong nhóm 6 startup y tế nổi bật, cùng thông tin ông vào nhóm 14 nhà khoa học Việt Nam tham gia chương trình hỗ trợ thương mại hóa kết quả nghiên cứu của Viện Hàn lâm Kỹ thuật Hoàng gia Anh.",
+      "en": "Zinmed, a mobile app for people with diabetes founded by Dr. Chu Duc Hoang, was featured by ICTNews among six notable healthcare startups, noting he had been selected among 14 Vietnamese scientists for the UK Royal Academy of Engineering's research-commercialization programme."
+    },
+    "keyPoints": {
+      "vi": [
+        "Zinmed là ứng dụng đa nền tảng cho người bệnh tiểu đường: thông tin theo nhóm bệnh, tra cứu dinh dưỡng, tìm và đánh giá phòng khám, bác sĩ.",
+        "Ứng dụng kết nối thiết bị theo dõi sức khỏe, phân tích vận động, nhịp tim, huyết áp; hỗ trợ lưu thông tin bệnh nhân lên thẻ NFC.",
+        "Zinmed tham gia khóa TFI 3 và đạt giải Nhì cuộc thi phát triển ứng dụng di động do Microsoft và Hiệp hội Internet Việt Nam tổ chức.",
+        "TS. Chử Đức Hoàng vào nhóm 14 nhà khoa học Việt Nam tham gia khóa hỗ trợ thương mại hóa kết quả nghiên cứu do Viện Hàn lâm Anh tổ chức."
+      ],
+      "en": [
+        "Zinmed is a cross-platform app for people with diabetes: condition-specific information, nutrition lookup, and finding and rating clinics and doctors.",
+        "It connects to health trackers to analyse activity, heart rate and blood pressure, and can store patient data on NFC cards.",
+        "Zinmed took part in TFI cohort 3 and won second prize in a mobile-app competition run by Microsoft and the Vietnam Internet Association.",
+        "Dr. Chu Duc Hoang was among 14 Vietnamese scientists selected for a research-commercialization course run by the UK's Royal Academy of Engineering."
+      ]
+    },
+    "body": {
+      "vi": [
+        "Ngày 2/3/2015, ICTNews (VietNamNet) đăng bài \"6 Startup đáng chú ý trong lĩnh vực y tế, chăm sóc sức khỏe\", nhận định khởi nghiệp trong lĩnh vực y tế không chỉ là khởi nghiệp đơn thuần mà còn góp phần giúp việc khám chữa bệnh trở nên thuận tiện hơn, dù số startup mạnh dạn đầu tư vào lĩnh vực nhạy cảm này còn chưa nhiều.",
+        "Trong danh sách, Zinmed được giới thiệu là ứng dụng di động đa nền tảng dành cho cộng đồng người bệnh tiểu đường: cung cấp thông tin theo từng nhóm bệnh và đối tượng, hỗ trợ tra cứu dinh dưỡng, thực phẩm, tìm kiếm và đánh giá phòng khám, bác sĩ. Ứng dụng có thể kết nối tự động với thiết bị theo dõi sức khỏe để tổng hợp, phân tích các chỉ số vận động, nhịp tim, huyết áp qua biểu đồ trực quan, đồng thời hỗ trợ lưu thông tin bệnh nhân lên thẻ NFC và thiết bị đeo tay. Khi đó, Zinmed đã có phiên bản chạy thử đầu tiên trên Android và đang tìm nguồn đầu tư để phát triển tiếp.",
+        "Bài viết cho biết Zinmed đã tham gia khóa khởi nghiệp Topica Founder Institute (TFI) khóa 3 và đạt giải Nhì cuộc thi phát triển ứng dụng di động do Microsoft và Hiệp hội Internet Việt Nam tổ chức. Đáng chú ý, nhà sáng lập Zinmed – TS. Chử Đức Hoàng – vừa được chọn vào nhóm 14 nhà khoa học Việt Nam tham gia khóa hỗ trợ thương mại hóa kết quả nghiên cứu do Viện Hàn lâm Kỹ thuật Hoàng gia Anh (Royal Academy of Engineering) tổ chức.",
+        "Việc tham gia chương trình của Viện Hàn lâm Kỹ thuật Hoàng gia Anh (sau này là mạng lưới Leaders in Innovation Fellowships – LIF) đánh dấu bước chuyển của TS. Chử Đức Hoàng từ nhà nghiên cứu kỹ thuật y sinh sang người thúc đẩy thương mại hóa kết quả nghiên cứu – lĩnh vực ông tiếp tục gắn bó qua mạng lưới LIFVietnam và công tác hỗ trợ đổi mới công nghệ sau này."
+      ],
+      "en": [
+        "On 2 March 2015, ICTNews (VietNamNet) published \"6 notable startups in healthcare\", arguing that healthcare startups do more than build businesses — they make medical care more accessible — even though few startups yet dared to invest in this sensitive field.",
+        "Zinmed was introduced as a cross-platform mobile app for people with diabetes: information tailored to conditions and user groups, nutrition and food lookup, and finding and rating clinics and doctors. It could connect automatically to health trackers to aggregate and chart activity, heart rate and blood pressure, and store patient data on NFC cards and wristbands. At the time Zinmed had a first Android test version and was seeking investment.",
+        "The article noted that Zinmed had taken part in Topica Founder Institute (TFI) cohort 3 and won second prize in a mobile-app development competition organized by Microsoft and the Vietnam Internet Association. Notably, its founder Dr. Chu Duc Hoang had just been selected among 14 Vietnamese scientists for a research-commercialization course run by the UK's Royal Academy of Engineering.",
+        "Joining the Royal Academy of Engineering programme (later the Leaders in Innovation Fellowships network, LIF) marked Dr. Hoang's shift from biomedical engineering researcher to champion of research commercialization — a field he has continued through the LIFVietnam network and his later work supporting technology innovation."
+      ]
+    },
+    "sources": [
+      {
+        "outlet": "ICTNews (VietNamNet)",
+        "title": "6 Startup đáng chú ý trong lĩnh vực y tế, chăm sóc sức khỏe",
+        "url": "https://vietnamnet.vn/6-startup-dang-chu-y-trong-linh-vuc-y-te-cham-soc-suc-khoe-i295949.html",
+        "date": "02/03/2015"
+      },
+      {
+        "outlet": "Medical Việt Nam (đăng lại)",
+        "title": "6 Startup đáng chú ý trong lĩnh vực y tế, chăm sóc sức khỏe",
+        "url": "https://medicalvietnam.com.vn/6-startup-dang-chu-y-trong-linh-vuc-y-te-cham-soc-suc-khoe"
+      }
+    ]
+  },
+  {
+    "slug": "2014-11-25-ung-dung-zinmed-ra-mat",
+    "date": "2014-11-25",
+    "category": "innovation",
+    "role": {
+      "vi": "Nhà sáng lập Zinmed",
+      "en": "Founder, Zinmed"
+    },
+    "title": {
+      "vi": "Ra mắt ứng dụng Zinmed: nền tảng tư vấn sức khỏe trực tuyến kết nối người dùng với bác sĩ",
+      "en": "Zinmed app launches as an online health-advice platform connecting users with doctors"
+    },
+    "excerpt": {
+      "vi": "ICTNews giới thiệu Zinmed – dự án y tế số do TS. Chử Đức Hoàng sáng lập – chính thức ra mắt năm 2014 với mục tiêu xây dựng dịch vụ tư vấn sức khỏe trực tuyến và cầu nối giữa người dùng với bác sĩ, phòng khám.",
+      "en": "ICTNews introduced Zinmed, a digital-health project founded by Dr. Chu Duc Hoang, which launched in 2014 aiming to offer online health advice and connect users with doctors and clinics."
+    },
+    "keyPoints": {
+      "vi": [
+        "Ba mục tiêu: mạng xã hội hỏi – đáp sức khỏe với đội ngũ chuyên gia; cầu nối người dùng – bác sĩ – phòng khám; dữ liệu lớn về xu hướng bệnh lý của người Việt.",
+        "Phát triển đa nền tảng (web, điện thoại, máy tính bảng), miễn phí cho người dùng.",
+        "Hợp tác với hơn 10 đối tác, trong đó có một số bệnh viện và dịch vụ y tế tư nhân.",
+        "Hoàn thành giai đoạn phát triển sản phẩm đầu tiên, chuẩn bị gọi vốn; nhóm sáng lập tự đầu tư khoảng 10.000 USD ban đầu."
+      ],
+      "en": [
+        "Three goals: a health Q&A community with expert answers; a bridge between users, doctors and clinics; and big data on health trends in Vietnam.",
+        "Built cross-platform (web, smartphone, tablet) and free for users.",
+        "Partnering with more than ten organizations, including several private hospitals and health services.",
+        "First product phase completed and preparing to raise funds; the founding team self-invested about USD 10,000."
+      ]
+    },
+    "body": {
+      "vi": [
+        "Ngày 25/11/2014, ICTNews (VietNamNet) giới thiệu Zinmed – dự án y tế số đã chính thức ra mắt trong năm 2014 sau thời gian dài ấp ủ, với định hướng trở thành dịch vụ tư vấn sức khỏe trực tuyến và nền tảng kết nối người dùng với bác sĩ. Zinmed là dự án khởi nghiệp do TS. Chử Đức Hoàng, khi đó là giảng viên, nhà nghiên cứu kỹ thuật y sinh tại Đại học Bách khoa Hà Nội, sáng lập.",
+        "Theo nhóm phát triển, chăm sóc sức khỏe trực tuyến là thị trường giàu tiềm năng, giúp người dân nhận tư vấn kịp thời, tiết kiệm thời gian, chi phí và góp phần giảm tải cho bệnh viện. Zinmed được xây dựng với ba mục tiêu: tạo cộng đồng tương tác về sức khỏe với đội ngũ chuyên gia giải đáp; làm cầu nối giữa người dùng với bác sĩ, phòng khám tư và thiết bị y tế; và hình thành cơ sở dữ liệu lớn về xu hướng bệnh lý của người Việt Nam.",
+        "Bài viết cũng nêu những thách thức: thị trường đã có các đối thủ đi trước, còn người dùng vẫn e ngại dịch vụ y tế trực tuyến. Nhóm lựa chọn phát triển đa nền tảng, miễn phí cho người dùng, tập trung vào giá trị và chất lượng nội dung y khoa để thay đổi thói quen, theo chiến lược \"tiến những bước nhỏ nhưng chắc chắn\". Khi đó, Zinmed đã hợp tác với hơn 10 đối tác, hoàn thành giai đoạn phát triển sản phẩm đầu tiên, chuẩn bị gọi vốn; nhóm sáng lập đã tự đầu tư khoảng 10.000 USD.",
+        "Zinmed năm 2014 là điểm khởi đầu cho hành trình hơn một thập kỷ của TS. Chử Đức Hoàng ở giao điểm giữa khoa học và đổi mới sáng tạo: từ ứng dụng y tế số, thiết bị theo dõi tiểu đường đến hướng nghiên cứu quang phổ Raman kết hợp trí tuệ nhân tạo hiện nay."
+      ],
+      "en": [
+        "On 25 November 2014, ICTNews (VietNamNet) introduced Zinmed, a digital-health project that officially launched that year after long preparation, aiming to become an online health-advice service and a platform connecting users with doctors. Zinmed was founded by Dr. Chu Duc Hoang, then a lecturer and biomedical engineering researcher at Hanoi University of Science and Technology.",
+        "The team saw online healthcare as a promising market that could give people timely advice, save time and money, and ease pressure on hospitals. Zinmed set three goals: a health community with expert answers; a bridge between users and doctors, private clinics and medical devices; and a big-data base on disease trends among Vietnamese people.",
+        "The article also noted the challenges: established competitors and users' reluctance to trust online medical services. The team chose a free, cross-platform product focused on user value and quality medical content to shift habits, following a strategy of \"small but steady steps\". By then Zinmed had more than ten partners, had finished its first product phase and was preparing to raise funds, with the founders having self-invested about USD 10,000.",
+        "Zinmed in 2014 was the starting point of Dr. Chu Duc Hoang's decade-long journey at the intersection of science and innovation — from digital-health apps and diabetes monitoring to today's research on Raman spectroscopy combined with artificial intelligence."
+      ]
+    },
+    "sources": [
+      {
+        "outlet": "ICTNews (VietNamNet)",
+        "title": "Ứng dụng Zinmed - đưa y tế đến gần hơn với mọi nhà",
+        "url": "https://vietnamnet.vn/ung-dung-zinmed-dua-y-te-den-gan-hon-voi-moi-nha-i389863.html",
+        "date": "25/11/2014"
       }
     ]
   }

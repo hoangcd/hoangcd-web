@@ -1865,5 +1865,37 @@ export const press: PressItem[] = [
   "url": "https://neu.edu.vn/toa-dam-doi-thoai-chinh-sach-dinh-huong-he-sinh-thai-khoi-nghiep-sang-tao-sau-dai-dich-covid-19/",
   "type": "event_speech",
   "sig": "medium"
+ },
+ {
+  "date": "2015-10-08",
+  "outlet": "AloBacsi (theo Trí Thức Trẻ)",
+  "title": "Sắp có máy đo tiểu đường không cần chích máu made in Vietnam?",
+  "url": "https://alobacsi.com/sap-co-may-do-tieu-duong-khong-can-chich-mau-made-in-vietnam.html",
+  "type": "interview",
+  "sig": "high"
+ },
+ {
+  "date": "2015-05-28",
+  "outlet": "JFDI.Asia",
+  "title": "Practice, Practice, Practice – the only way to learn how to apply lean startup methods",
+  "url": "https://www.jfdi.asia/blog/zinmed-discover-feature/",
+  "type": "interview",
+  "sig": "medium"
+ },
+ {
+  "date": "2015-03-02",
+  "outlet": "ICTNews (VietNamNet)",
+  "title": "6 Startup đáng chú ý trong lĩnh vực y tế, chăm sóc sức khỏe",
+  "url": "https://vietnamnet.vn/6-startup-dang-chu-y-trong-linh-vuc-y-te-cham-soc-suc-khoe-i295949.html",
+  "type": "mention",
+  "sig": "medium"
+ },
+ {
+  "date": "2014-11-25",
+  "outlet": "ICTNews (VietNamNet)",
+  "title": "Ứng dụng Zinmed - đưa y tế đến gần hơn với mọi nhà",
+  "url": "https://vietnamnet.vn/ung-dung-zinmed-dua-y-te-den-gan-hon-voi-moi-nha-i389863.html",
+  "type": "mention",
+  "sig": "medium"
  }
 ];
