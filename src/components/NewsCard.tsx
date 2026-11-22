@@ -1,4 +1,4 @@
-import Image from "next/image";
+import NewsCover from "./NewsCover";
 import Link from "next/link";
 import type { Locale } from "@/content/types";
 import {
@@ -34,14 +34,7 @@ export default function NewsCard({
         className="group grid overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md md:grid-cols-[1.35fr_1fr]"
       >
         <div className="relative aspect-[16/10] bg-slate-100 md:aspect-auto md:min-h-[320px]">
-          <Image
-            src={item.cover.src}
-            alt={item.cover.caption[locale]}
-            fill
-            sizes="(min-width: 768px) 600px, 100vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-            priority
-          />
+          <NewsCover item={item} locale={locale} sizes="(min-width: 768px) 600px, 100vw" priority />
         </div>
         <div className="flex flex-col p-6 sm:p-7">
           {meta}
@@ -67,13 +60,7 @@ export default function NewsCard({
       className="group flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md"
     >
       <div className="relative aspect-[16/10] bg-slate-100">
-        <Image
-          src={item.cover.src}
-          alt={item.cover.caption[locale]}
-          fill
-          sizes="(min-width: 1024px) 320px, (min-width: 640px) 50vw, 100vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-        />
+        <NewsCover item={item} locale={locale} sizes="(min-width: 1024px) 320px, (min-width: 640px) 50vw, 100vw" />
       </div>
       <div className="flex flex-1 flex-col p-5">
         {meta}

@@ -6,6 +6,7 @@ import type { Locale } from "@/content/types";
 import Card from "@/components/Card";
 import NewsCard from "@/components/NewsCard";
 import PageIntro from "@/components/PageIntro";
+import { press } from "@/content/press";
 import {
   categoryLabels,
   getNews,
@@ -41,6 +42,8 @@ export default async function NewsPage({
   const used = new Set(all.map((n) => n.category));
   const tabs = CATEGORIES.filter((cat) => cat === "all" || used.has(cat as NewsCategory));
   const [featured, ...rest] = items;
+  const years = [...new Set(press.map((p) => p.date.slice(0, 4)))].sort().reverse();
+  const fmt = (d: string) => d.split("-").reverse().join("/");
 
   return (
     <div className="bg-slate-50 py-10 sm:py-14">
@@ -80,47 +83,61 @@ export default async function NewsPage({
         )}
 
         <Card title={ui.pressTitle} icon={<Newspaper className="h-5 w-5" />}>
-          <p className="text-sm text-slate-600">{ui.pressIntro}</p>
-          <ul className="mt-5 divide-y divide-slate-100 overflow-hidden rounded-lg border border-slate-200">
-            {dict.curated.map((item, i) => {
-              const inner = (
-                <>
-                  <div className="min-w-0">
-                    <p className="text-sm font-medium text-slate-800">
-                      {item.title}
-                    </p>
-                    <p className="mt-1 text-xs text-slate-500">{item.source}</p>
-                  </div>
-                  <div className="flex shrink-0 items-center gap-2">
-                    <span className="text-xs font-medium text-slate-500">
-                      {item.date}
-                    </span>
-                    {item.url && (
-                      <ExternalLink className="h-3.5 w-3.5 text-emerald-700" />
-                    )}
-                  </div>
-                </>
-              );
-              const cls =
-                "flex flex-col gap-1.5 px-4 py-3.5 sm:flex-row sm:items-center sm:justify-between sm:gap-4";
+          <p className="text-sm text-slate-600">
+            {ui.pressIntro} ({press.length})
+          </p>
+          <div className="mt-5 space-y-3">
+            {years.map((year, yi) => {
+              const list = press.filter((p) => p.date.startsWith(year));
               return (
-                <li key={i}>
-                  {item.url ? (
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${cls} transition-colors hover:bg-emerald-50/40`}
-                    >
-                      {inner}
-                    </a>
-                  ) : (
-                    <div className={cls}>{inner}</div>
-                  )}
-                </li>
+                <details
+                  key={year}
+                  open={yi === 0}
+                  className="group rounded-lg border border-slate-200 open:bg-slate-50/60"
+                >
+                  <summary className="cursor-pointer select-none px-4 py-3 text-sm font-semibold text-slate-900 marker:content-none">
+                    <span className="mr-2 inline-block text-emerald-700 transition-transform group-open:rotate-90">
+                      ▶
+                    </span>
+                    {year}
+                    <span className="ml-2 text-xs font-normal text-slate-400">
+                      ({list.length})
+                    </span>
+                  </summary>
+                  <ul className="divide-y divide-slate-100 border-t border-slate-200 bg-white">
+                    {list.map((item) => (
+                      <li key={item.url}>
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex flex-col gap-1 px-4 py-3 transition-colors hover:bg-emerald-50/40 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
+                        >
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium text-slate-800">
+                              {item.title}
+                            </p>
+                            <p className="mt-0.5 text-xs text-slate-500">
+                              {item.outlet}
+                              {item.type === "interview" && (
+                                <span className="ml-2 rounded bg-emerald-50 px-1.5 py-0.5 text-[11px] font-semibold text-emerald-800">
+                                  {ui.interview}
+                                </span>
+                              )}
+                            </p>
+                          </div>
+                          <span className="flex shrink-0 items-center gap-1.5 text-xs font-medium text-slate-500">
+                            {fmt(item.date)}
+                            <ExternalLink className="h-3.5 w-3.5 text-emerald-700" />
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
               );
             })}
-          </ul>
+          </div>
         </Card>
       </div>
     </div>

@@ -7,6 +7,7 @@ import { getDictionary, isValidLocale } from "@/lib/i18n";
 import type { Locale } from "@/content/types";
 import { getPostBySlug } from "@/lib/supabase";
 import NewsCard from "@/components/NewsCard";
+import NewsCover from "@/components/NewsCover";
 import {
   categoryLabels,
   formatNewsDate,
@@ -49,7 +50,7 @@ export async function generateMetadata({
         title: item.title[l],
         description: item.excerpt[l],
         publishedTime: item.date,
-        images: [{ url: `${SITE}${item.cover.src}` }],
+        images: [{ url: `${SITE}${item.cover?.src ?? "/images/profile.png"}` }],
       },
     };
   }
@@ -87,7 +88,7 @@ export default async function NewsArticlePage({
     headline: item.title[l],
     description: item.excerpt[l],
     datePublished: item.date,
-    image: [`${SITE}${item.cover.src}`],
+    image: [`${SITE}${item.cover?.src ?? "/images/profile.png"}`],
     inLanguage: l,
     author: { "@type": "Person", name: "Chử Đức Hoàng", url: SITE },
     isBasedOn: item.sources.map((s) => s.url),
@@ -119,6 +120,11 @@ export default async function NewsArticlePage({
             <CalendarDays className="h-4 w-4" />
             <time dateTime={item.date}>{formatNewsDate(item.date, l)}</time>
           </span>
+          {item.role && (
+            <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-semibold text-emerald-800 ring-1 ring-emerald-100">
+              {ui.role}: {item.role[l]}
+            </span>
+          )}
           {item.location && (
             <span className="flex items-center gap-1.5">
               <MapPin className="h-4 w-4" />
@@ -131,27 +137,38 @@ export default async function NewsArticlePage({
           {item.excerpt[l]}
         </p>
 
-        <figure className="mt-8">
-          <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
-            <Image
-              src={item.cover.src}
-              alt={item.cover.caption[l]}
-              fill
-              sizes="(min-width: 768px) 768px, 100vw"
-              className="object-cover"
-              priority
-            />
-          </div>
-          <figcaption className="mt-2 text-sm text-slate-500">
-            {item.cover.caption[l]}
-            {item.photoCredit && (
-              <span className="text-slate-400">
-                {" "}
-                — {ui.photo}: {item.photoCredit[l]}
-              </span>
-            )}
-          </figcaption>
-        </figure>
+        {item.keyPoints && item.keyPoints[l].length > 0 && (
+          <aside className="mt-6 rounded-xl border-l-4 border-emerald-600 bg-emerald-50/50 p-5">
+            <h2 className="text-xs font-semibold uppercase tracking-wide text-emerald-800">
+              {ui.keyPoints}
+            </h2>
+            <ul className="mt-3 space-y-2">
+              {item.keyPoints[l].map((k) => (
+                <li key={k} className="flex gap-2.5 text-[15px] leading-relaxed text-slate-800">
+                  <span className="mt-[9px] h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-600" />
+                  <span>{k}</span>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
+
+        {item.cover && (
+          <figure className="mt-8">
+            <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
+              <NewsCover item={item} locale={l} sizes="(min-width: 768px) 768px, 100vw" priority hoverZoom={false} />
+            </div>
+            <figcaption className="mt-2 text-sm text-slate-500">
+              {item.cover.caption[l]}
+              {item.photoCredit && (
+                <span className="text-slate-400">
+                  {" "}
+                  — {ui.photo}: {item.photoCredit[l]}
+                </span>
+              )}
+            </figcaption>
+          </figure>
+        )}
 
         <div className="mt-8 space-y-5 text-[17px] leading-[1.75] text-slate-700">
           {item.body[l].map((p, i) => (
