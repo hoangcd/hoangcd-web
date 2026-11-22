@@ -12,6 +12,8 @@ import { getDictionary, isValidLocale } from "@/lib/i18n";
 import type { Locale } from "@/content/types";
 import { getHub } from "@/content/hub";
 import ProfileHeader from "@/components/ProfileHeader";
+import NewsCard from "@/components/NewsCard";
+import { getNews } from "@/content/news";
 
 export default async function HomePage({
   params,
@@ -38,6 +40,7 @@ export default async function HomePage({
     },
   } as const;
 
+  const latestNews = getNews().slice(0, 3);
   const latest = dict.media.curated.slice(0, 3);
 
   return (
@@ -109,25 +112,33 @@ export default async function HomePage({
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
+          {latestNews.length > 0 ? (
+            <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {latestNews.map((item) => (
+                <NewsCard key={item.slug} item={item} locale={l} />
+              ))}
+            </div>
+          ) : (
           <div className="mt-4 grid gap-4 sm:grid-cols-3">
-            {latest.map((item) => (
-              <a
-                key={item.title}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition-colors hover:border-emerald-300"
-              >
-                <p className="text-xs font-medium text-slate-500">
-                  {item.source} · {item.date}
-                </p>
-                <h3 className="mt-2 flex-1 text-[15px] font-semibold leading-snug text-slate-900 group-hover:text-emerald-800">
-                  {item.title}
-                </h3>
-                <ArrowUpRight className="mt-3 h-4 w-4 text-emerald-700" />
-              </a>
-            ))}
-          </div>
+              {latest.map((item) => (
+                <a
+                  key={item.title}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex flex-col rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition-colors hover:border-emerald-300"
+                >
+                  <p className="text-xs font-medium text-slate-500">
+                    {item.source} · {item.date}
+                  </p>
+                  <h3 className="mt-2 flex-1 text-[15px] font-semibold leading-snug text-slate-900 group-hover:text-emerald-800">
+                    {item.title}
+                  </h3>
+                  <ArrowUpRight className="mt-3 h-4 w-4 text-emerald-700" />
+                </a>
+              ))}
+    </div>
+          )}
         </section>
 
         {/* Quote + about */}
