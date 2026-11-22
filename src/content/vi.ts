@@ -23,7 +23,7 @@ const vi: Site = {
     ctaSecondary: "Google Scholar",
     stats: [
       { value: "20+", label: "Năm kinh nghiệm" },
-      { value: "50+", label: "Công bố khoa học" },
+      { value: "60+", label: "Công bố khoa học" },
       { value: "393", label: "Trích dẫn" },
       { value: "7", label: "h-index" },
     ],
@@ -363,7 +363,7 @@ const vi: Site = {
     ],
   },
   media: {
-    title: "Media",
+    title: "Tin tức & Báo chí",
     intro: "Tổng hợp các bài viết, phỏng vấn và tin tức truyền thông về TS. Chử Đức Hoàng.",
     curatedTitle: "Bài viết & phỏng vấn truyền thông",
     curatedIntro: "Tổng hợp từ các báo, cổng thông tin điện tử và đơn vị tổ chức sự kiện (2020 – nay).",

@@ -23,7 +23,7 @@ const en: Site = {
     ctaSecondary: "Google Scholar",
     stats: [
       { value: "20+", label: "Years of experience" },
-      { value: "50+", label: "Publications" },
+      { value: "60+", label: "Publications" },
       { value: "393", label: "Citations" },
       { value: "7", label: "h-index" },
     ],
@@ -363,7 +363,7 @@ const en: Site = {
     ],
   },
   media: {
-    title: "Media",
+    title: "News & Press",
     intro: "A collection of press articles, interviews, and media coverage of Dr. Chu Duc Hoang.",
     curatedTitle: "Press Articles & Interviews",
     curatedIntro: "Compiled from newspapers, official portals, and event organizers (2020 – present).",

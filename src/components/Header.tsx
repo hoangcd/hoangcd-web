@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import type { Locale, Site } from "@/content/types";
+import { getHub } from "@/content/hub";
 import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header({
@@ -14,14 +15,16 @@ export default function Header({
   locale: Locale;
   dict: Site;
 }) {
+  const hub = getHub(locale);
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
   const links = [
     { href: `/${locale}`, label: dict.nav.home },
-    { href: `/${locale}/research`, label: dict.nav.research },
-    { href: `/${locale}/management`, label: dict.nav.management },
-    { href: `/${locale}/media`, label: dict.nav.media },
+    { href: `/${locale}/science`, label: hub.nav.science },
+    { href: `/${locale}/innovation`, label: hub.nav.innovation },
+    { href: `/${locale}/media`, label: hub.nav.news },
+    { href: `/${locale}/about`, label: hub.nav.about },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
 

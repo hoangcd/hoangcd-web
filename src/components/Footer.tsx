@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Mail, MapPin } from "lucide-react";
 import type { Locale, Site } from "@/content/types";
+import { getHub } from "@/content/hub";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import FacebookIcon from "./icons/FacebookIcon";
 import ScholarIcon from "./icons/ScholarIcon";
@@ -20,6 +21,7 @@ export default function Footer({
   locale: Locale;
   dict: Site;
 }) {
+  const hub = getHub(locale);
   const year = new Date().getFullYear();
 
   const socials = [
@@ -30,9 +32,10 @@ export default function Footer({
 
   const navLinks = [
     { href: `/${locale}`, label: dict.nav.home },
-    { href: `/${locale}/research`, label: dict.nav.research },
-    { href: `/${locale}/management`, label: dict.nav.management },
-    { href: `/${locale}/media`, label: dict.nav.media },
+    { href: `/${locale}/science`, label: hub.nav.science },
+    { href: `/${locale}/innovation`, label: hub.nav.innovation },
+    { href: `/${locale}/media`, label: hub.nav.news },
+    { href: `/${locale}/about`, label: hub.nav.about },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
 

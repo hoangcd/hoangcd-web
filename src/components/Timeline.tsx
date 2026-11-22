@@ -1,6 +1,12 @@
 import type { TimelineItem } from "@/content/types";
 
-export default function Timeline({ items }: { items: TimelineItem[] }) {
+export default function Timeline({
+  items,
+  currentLabel = "Current",
+}: {
+  items: TimelineItem[];
+  currentLabel?: string;
+}) {
   return (
     <ol className="relative border-l-2 border-slate-200 pl-6 sm:pl-8">
       {items.map((item, i) => (
@@ -16,7 +22,7 @@ export default function Timeline({ items }: { items: TimelineItem[] }) {
             </h3>
             {item.current && (
               <span className="rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
-                Current
+                {currentLabel}
               </span>
             )}
           </div>
